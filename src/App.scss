@@ -28,11 +28,18 @@
 	display: grid;
 	@include content-columns(3);
 	padding: 1rem;
-	&__inner-wrapper {
-		grid-column: 2/5;
-	}
-	&_header {
+	&_header,
+	&_themes {
 		background-color: var(--cmdr-color-primary-500);
+	}
+	&__inner-wrapper {
+		&_header {
+			grid-column: 2/5;
+		}
+		&_themes {
+			background-color: #f0f7fe;
+			grid-column: 2 / 5;
+		}
 	}
 }
 
@@ -61,5 +68,5 @@ h1 {
 
 // Themes
 .themes {
-	background-color: var(--cmdr-color-primary-500);
+	// background-color: var(--cmdr-color-primary-500);
 }
