@@ -91,7 +91,7 @@ function App() {
 							</p>
 							<button className="btn-default mb-6">Primary Button</button>
 						</div>
-						<div className="pop-out__right-container mb-10"></div>
+						<div className="pop-out__right-container mb-10 md:mb-0"></div>
 					</div>
 				</div>
 			</div>
