@@ -88,7 +88,7 @@ function App() {
 							Eat Some Seaweed
 						</h2>
 						<p className="rich-text__text text-5xl">
-							Don't Wait! Go each some seaweed now!
+							Don't Wait! Go eat some seaweed now!
 						</p>
 					</div>
 				</div>
