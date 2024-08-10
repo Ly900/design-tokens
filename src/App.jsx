@@ -81,7 +81,7 @@ function App() {
 			</div>
 
 			{/* Rich Text */}
-			<div className="component-wrapper component-wrapper_rich-text">
+			<div className="component-wrapper component-wrapper_rich-text pb-0">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_rich-text">
 					<div className="rich-text text-center md:text-left">
 						<h2 className="rich-text__subheading uppercase mb-6">
@@ -90,6 +90,30 @@ function App() {
 						<p className="rich-text__text text-5xl">
 							Don't Wait! Go each some seaweed now!
 						</p>
+					</div>
+				</div>
+			</div>
+
+			{/* Rates */}
+			<div className="component-wrapper component-wrapper_rates pb-6">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_rates">
+					<div className="rates">
+						<div className="rates__left-container mb-4 md:mb-0"></div>
+						<div className="rates__right-container mb-4 md:mb-0">
+							<h3 className="rates__subheading">Lorem ipsum dolor</h3>
+							<p className="rates__text mb-4">
+								Lorem ipsum dolor sit amet consectetur adipiscing elit auctor,
+								hac sociis platea condimentum quam posuere.
+							</p>
+							<h3 className="rates__subheading">Ipsum dolor</h3>
+							<p className="rates__text mb-8">
+								Lorem ipsum dolor sit amet consectetur adipiscing elit auctor,
+								hac sociis platea condimentum quam posuere.
+							</p>
+							<button className="btn-secondary mb-0 md:mb-6">
+								Secondary Button
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -106,6 +130,20 @@ function App() {
 							<button className="btn-default mb-6">Primary Button</button>
 						</div>
 						<div className="pop-out__right-container mb-10 md:mb-0"></div>
+					</div>
+				</div>
+			</div>
+
+			{/* Rich Text */}
+			<div className="component-wrapper component-wrapper_rich-text">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_rich-text">
+					<div className="rich-text text-center md:text-left">
+						<h2 className="rich-text__subheading uppercase mb-6">
+							Eat Some Seaweed
+						</h2>
+						<p className="rich-text__text text-5xl">
+							Don't Wait! Go each some seaweed now!
+						</p>
 					</div>
 				</div>
 			</div>

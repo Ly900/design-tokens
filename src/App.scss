@@ -96,6 +96,12 @@
 			@include content-columns(1);
 		}
 	}
+	&_rates {
+		background-color: #fff;
+		@media (min-width: 780px) {
+			@include content-columns(3);
+		}
+	}
 	&__inner-wrapper {
 		&_header {
 			@media (min-width: 780px) {
@@ -127,6 +133,11 @@
 		&_rich-text {
 			@media (min-width: 780px) {
 				grid-column: 2/3;
+			}
+		}
+		&_rates {
+			@media (min-width: 780px) {
+				grid-column: 2/5;
 			}
 		}
 	}
@@ -271,6 +282,29 @@ h1 {
 	&__text {
 		font-size: 3.5rem;
 		line-height: 1.14;
+	}
+}
+
+// Rates
+
+.rates {
+	@media (min-width: 780px) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2rem;
+	}
+
+	&__left-container {
+		background-image: url(https://picsum.photos/1000/);
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 31.688rem;
+		border-radius: 15px;
+	}
+	&__subheading {
+		font-size: 2rem;
+		font-weight: 600;
+		color: #0f3d70;
 	}
 }
 
