@@ -95,7 +95,7 @@ function App() {
 			</div>
 
 			{/* Rates */}
-			<div className="component-wrapper component-wrapper_rates pb-8">
+			<div className="component-wrapper component-wrapper_rates pb-10">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_rates">
 					<div className="rates">
 						<div className="rates__left-container mb-4 md:mb-0"></div>
@@ -132,7 +132,7 @@ function App() {
 			</div>
 
 			{/* Pop Out */}
-			<div className="component-wrapper component-wrapper_pop-out pb-6">
+			<div className="component-wrapper component-wrapper_pop-out pb-10">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_pop-out">
 					<div className="pop-out">
 						<div className="pop-out__left-container mb-4 md:mb-0">
@@ -148,15 +148,45 @@ function App() {
 			</div>
 
 			{/* Rich Text */}
-			<div className="component-wrapper component-wrapper_rich-text">
-				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_rich-text">
-					<div className="rich-text text-center md:text-left">
-						<h2 className="rich-text__subheading uppercase mb-6">
-							Eat Some Seaweed
+			<div className="component-wrapper component-wrapper_rich-text2">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_rich-text2">
+					<div className="rich-text2 text-center">
+						<h2 className="rich-text2__subheading uppercase mb-6 text-center">
+							Crabs are delicious
 						</h2>
-						<p className="rich-text__text text-5xl">
-							Don't Wait! Go each some seaweed now!
+						<p className="rich-text2__text text-5xl">
+							Go to Captain White to get a good deal on a bushel of crabs
 						</p>
+					</div>
+				</div>
+			</div>
+
+			{/* Icon Row */}
+			<div className="component-wrapper component-wrapper_icon-row">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_icon-row">
+					<div className="icon-row">
+						<ul className="icon-row__unordered-list text-center">
+							<li className="icon-row__list-item">
+								<a href="#" className="default-link">
+									Snow crab legs
+								</a>
+							</li>
+							<li className="icon-row__list-item">
+								<a href="#" className="default-link">
+									Lobster
+								</a>
+							</li>
+							<li className="icon-row__list-item">
+								<a href="#" className="default-link">
+									Blue crabs
+								</a>
+							</li>
+							<li className="icon-row__list-item">
+								<a href="#" className="default-link">
+									Oysters
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
