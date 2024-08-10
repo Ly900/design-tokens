@@ -53,12 +53,6 @@
 	vertical-align: middle;
 }
 
-@mixin default-link {
-	border-bottom: 1px dotted;
-	color: #0667ba;
-	text-decoration: none;
-}
-
 .btn-default {
 	@include btn-default();
 }
@@ -68,8 +62,14 @@
 	background-color: var(--cmdr-color-brand-1);
 }
 
+@mixin default-link {
+	border-bottom: 1px dotted;
+	color: #0667ba;
+	text-decoration: none;
+}
+
 .default-link {
-	@include default-link();
+	@include default-link;
 }
 
 // Component wrapper containers

@@ -109,16 +109,20 @@ function App() {
 								Default link
 							</a>
 
-							<hr className="mb-6"></hr>
+							<hr className="my-6"></hr>
 
 							<h3 className="rates__subheading">Ipsum dolor</h3>
 							<p className="rates__text mb-8">
 								Lorem ipsum dolor sit amet consectetur adipiscing elit auctor,
 								hac sociis platea condimentum quam posuere.
 							</p>
-							<a href="#" className="default-link mb-8">
-								Default link
-							</a>
+
+							<span className="block mb-6">
+								<a href="#" className="default-link mb-8">
+									Default link
+								</a>
+							</span>
+
 							<button className="btn-secondary mb-0 md:mb-6">
 								Secondary Button
 							</button>
