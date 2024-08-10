@@ -49,15 +49,13 @@ function App() {
 								Primary Button
 							</a>
 						</div>
-						<div className="sign-in__right-container">
-							<img src="" />
-						</div>
+						<div className="sign-in__right-container"></div>
 					</div>
 				</div>
 			</div>
 
 			{/* Mini Tiles */}
-			<div className="component-wrapper component-wrapper_mini-tiles pb-12">
+			<div className="component-wrapper component-wrapper_mini-tiles pb-6">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_mini-tiles">
 					<div className="mini-tiles">
 						<div className="mini-tiles__text-container mb-4">
@@ -65,7 +63,7 @@ function App() {
 								What's your favorite holiday?
 							</h2>
 						</div>
-						<div className="mini-tiles__tiles-container">
+						<div className="mini-tiles__tiles-container mb-10">
 							<ul className="mini-tiles__unordered-list">
 								<li className="mini-tiles__list-item p-2">Halloween</li>
 								<li className="mini-tiles__list-item p-2">Thanksgiving</li>
@@ -75,6 +73,25 @@ function App() {
 								<li className="mini-tiles__list-item p-2">None</li>
 							</ul>
 						</div>
+						<div className="mini-tiles__call-to-action text-center">
+							<button className="btn-secondary">Secondary Button</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Pop Out */}
+			<div className="component-wrapper component-wrapper_pop-out pb-6">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_pop-out">
+					<div className="pop-out">
+						<div className="pop-out__left-container mb-4 md:mb-0">
+							<h2 className="pop-out__subheading mb-4">Lorem ipsum dolor</h2>
+							<p className="pop-out__text mb-8">
+								Lorem ipsum dolor sit amet consectetur adipiscing.
+							</p>
+							<button className="btn-default mb-6">Primary Button</button>
+						</div>
+						<div className="pop-out__right-container mb-10"></div>
 					</div>
 				</div>
 			</div>
