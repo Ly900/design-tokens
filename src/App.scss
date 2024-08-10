@@ -3,8 +3,8 @@
 	--cmdr-color-primary-200: #0662b2;
 	--cmdr-color-primary-300: #05579e;
 	--cmdr-color-primary-400: #044c8b;
-	--cmdr-color-primary-500: #044177;
-	--cmdr-color-primary-600: #033663;
+	--cmdr-color-primary-500: #144881;
+	--cmdr-color-primary-600: #0f3d70;
 	--cmdr-color-primary-700: #022b4f;
 	--cmdr-color-primary-800: #02213b;
 	--cmdr-color-primary-900: #011628;
@@ -31,7 +31,7 @@
 	&_header,
 	&_themes,
 	&_sign-in {
-		background-color: var(--cmdr-color-primary-500);
+		background-color: var(--cmdr-color-primary-600);
 	}
 	&_header {
 		padding-top: 2rem;
@@ -91,14 +91,39 @@ h1 {
 // Sign in
 
 .sign-in {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
 	color: #fff;
 	font-size: 2rem;
+	display: flex;
+	flex-direction: column-reverse;
+	@media (min-width: 780px) {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(10, 1fr);
+	}
 	&__left-container {
-		grid-column: 1 / 3;
+		background-color: var(--cmdr-color-primary-500);
+		padding: 2rem;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		font-weight: 500;
+		letter-spacing: 1px;
+		@media (min-width: 780px) {
+			grid-column: 1 / 3;
+			grid-row: 2 / 10;
+			border-top-left-radius: 15px;
+			border-bottom-left-radius: 15px;
+		}
 	}
 	&__right-container {
-		grid-column: 3 / 6;
+		background-image: url(https://placecats.com/300/200);
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 31.688rem;
+
+		@media (min-width: 780px) {
+			grid-column: 3 / 6;
+			border-radius: 15px;
+			grid-row: 1 / 11;
+		}
 	}
 }
