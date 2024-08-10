@@ -172,6 +172,8 @@ h1 {
 		font-size: 2rem;
 		color: var(--cmdr-color-primary-600);
 		font-weight: 600;
+		border-left: 0.5rem #ed780f solid;
+		padding-left: 0.75rem;
 	}
 	&__unordered-list {
 		display: grid;
