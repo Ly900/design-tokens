@@ -25,13 +25,13 @@
 
 .header {
 	background-color: var(--cmdr-color-primary-500);
-	padding: 1rem;
 	color: #fff;
 }
 
 .component-wrapper {
 	display: grid;
 	@include content-columns(3);
+	padding: 1rem;
 	&__inner-wrapper {
 		grid-column: 2/5;
 		display: flex;
