@@ -57,7 +57,7 @@ function App() {
 			</div>
 
 			{/* Mini Tiles */}
-			<div className="component-wrapper component-wrapper_mini-tiles">
+			<div className="component-wrapper component-wrapper_mini-tiles pb-12">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_mini-tiles">
 					<div className="mini-tiles">
 						<div className="mini-tiles__text-container mb-4">

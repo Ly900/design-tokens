@@ -15,6 +15,7 @@
 	font-size: 20px;
 	margin: 0 auto;
 	font-family: 'Teachers', sans-serif;
+	padding-bottom: 10rem;
 }
 
 @mixin content-columns($columns) {
@@ -86,7 +87,7 @@
 			grid-column: 2/5;
 		}
 		&_mini-tiles {
-			grid-column: 2/6;
+			grid-column: 2/8;
 		}
 	}
 }
@@ -178,6 +179,10 @@ h1 {
 		grid-gap: 1rem;
 		@media (min-width: 780px) {
 			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+		}
+		@media (min-width: 960px) {
+			display: grid;
 			grid-template-columns: repeat(6, 1fr);
 		}
 	}
@@ -187,5 +192,12 @@ h1 {
 		border-radius: 15px;
 		border-color: var(--cmdr-color-brand-1);
 		color: var(--cmdr-color-brand-1);
+		background-color: #f5faff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@media (min-width: 780px) {
+			// min-width: 12.375rem;
+		}
 	}
 }
