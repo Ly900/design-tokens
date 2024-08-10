@@ -35,8 +35,15 @@ function App() {
 			</div>
 
 			<div className="component-wrapper component-wrapper_sign-in">
-				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_sign-in p-4">
-					<div className="sign-in">Enjoy</div>
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_sign-in">
+					<div className="sign-in">
+						<div className="sign-in__left-container">
+							Enjoy yourself here theming with CSS variables and design tokens.
+						</div>
+						<div className="sign-in__right-container">
+							<img src="" />
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
