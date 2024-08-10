@@ -23,6 +23,37 @@
 		1fr;
 }
 
+@mixin btn-default {
+	appearance: none;
+	background-color: #ed780f;
+	border: none;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px 0 #0000004d;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 1em;
+	min-width: 90pt;
+	padding: 1rem 2.4rem;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 2px #361c04f2;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	vertical-align: middle;
+}
+
+.btn-default {
+	@include btn-default();
+}
+
 // Component wrapper containers
 .component-wrapper {
 	display: grid;

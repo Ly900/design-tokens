@@ -41,10 +41,13 @@ function App() {
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_sign-in">
 					<div className="sign-in">
 						<div className="sign-in__left-container">
-							<p>
+							<p className="sign-in__text mb-5">
 								Enjoy yourself here theming with CSS variables and design
 								tokens.
 							</p>
+							<a href="#" className="btn-default mb-0">
+								Primary Button
+							</a>
 						</div>
 						<div className="sign-in__right-container">
 							<img src="" />
