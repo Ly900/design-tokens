@@ -6,6 +6,7 @@ function App() {
 
 	return (
 		<>
+			{/* Header */}
 			<div className="component-wrapper component-wrapper_header">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_header">
 					<div className="header">
@@ -15,6 +16,7 @@ function App() {
 				</div>
 			</div>
 
+			{/* Themes  */}
 			<div className="component-wrapper component-wrapper_themes">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_themes p-4">
 					<div className="themes">
@@ -34,6 +36,7 @@ function App() {
 				</div>
 			</div>
 
+			{/* Sign In */}
 			<div className="component-wrapper component-wrapper_sign-in">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_sign-in">
 					<div className="sign-in">
@@ -45,6 +48,29 @@ function App() {
 						</div>
 						<div className="sign-in__right-container">
 							<img src="" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Mini Tiles */}
+			<div className="component-wrapper component-wrapper_mini-tiles">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_mini-tiles">
+					<div className="mini-tiles">
+						<div className="mini-tiles__text-container mb-4">
+							<h2 className="mini-tiles__heading">
+								What's your favorite holiday?
+							</h2>
+						</div>
+						<div className="mini-tiles__tiles-container">
+							<ul className="mini-tiles__unordered-list">
+								<li className="mini-tiles__list-item p-2">Halloween</li>
+								<li className="mini-tiles__list-item p-2">Thanksgiving</li>
+								<li className="mini-tiles__list-item p-2">Christmas</li>
+								<li className="mini-tiles__list-item p-2">New Year</li>
+								<li className="mini-tiles__list-item p-2">MLK Jr Day</li>
+								<li className="mini-tiles__list-item p-2">None</li>
+							</ul>
 						</div>
 					</div>
 				</div>
