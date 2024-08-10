@@ -27,14 +27,14 @@
 .component-wrapper {
 	display: grid;
 	@include content-columns(3);
-	padding: 1rem;
+	padding: 2rem;
 	&_header,
 	&_themes,
 	&_sign-in {
 		background-color: var(--cmdr-color-primary-600);
 	}
 	&_header {
-		padding-top: 2rem;
+		padding-bottom: 0.5rem;
 	}
 	&__inner-wrapper {
 		&_header {
