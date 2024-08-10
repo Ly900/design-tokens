@@ -16,10 +16,21 @@ function App() {
 			</div>
 
 			<div className="component-wrapper component-wrapper_themes">
-				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_themes">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_themes p-4">
 					<div className="themes">
 						<div className="buttons-wrapper">
-							<button>Dark mode</button>
+							<ul>
+								<li>
+									<a href="#" className="link-default">
+										Dark mode
+									</a>
+								</li>
+								<li>
+									<a href="#" className="link-default">
+										Halloween
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
