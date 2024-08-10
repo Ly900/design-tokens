@@ -34,10 +34,10 @@
 	@include content-columns(3);
 	&__inner-wrapper {
 		grid-column: 2/5;
-		margin: 0 auto;
 		display: flex;
+		justify-content: center;
 		align-items: center;
-		grid-gap: 1.5rem;
+		grid-gap: 1rem;
 	}
 }
 
