@@ -95,21 +95,30 @@ function App() {
 			</div>
 
 			{/* Rates */}
-			<div className="component-wrapper component-wrapper_rates pb-6">
+			<div className="component-wrapper component-wrapper_rates pb-8">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_rates">
 					<div className="rates">
 						<div className="rates__left-container mb-4 md:mb-0"></div>
 						<div className="rates__right-container mb-4 md:mb-0">
 							<h3 className="rates__subheading">Lorem ipsum dolor</h3>
-							<p className="rates__text mb-4">
+							<p className="rates__text mb-6">
 								Lorem ipsum dolor sit amet consectetur adipiscing elit auctor,
 								hac sociis platea condimentum quam posuere.
 							</p>
+							<a href="#" className="default-link mb-8">
+								Default link
+							</a>
+
+							<hr className="mb-6"></hr>
+
 							<h3 className="rates__subheading">Ipsum dolor</h3>
 							<p className="rates__text mb-8">
 								Lorem ipsum dolor sit amet consectetur adipiscing elit auctor,
 								hac sociis platea condimentum quam posuere.
 							</p>
+							<a href="#" className="default-link mb-8">
+								Default link
+							</a>
 							<button className="btn-secondary mb-0 md:mb-6">
 								Secondary Button
 							</button>
