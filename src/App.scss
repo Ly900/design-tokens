@@ -1,0 +1,11 @@
+#root {
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 2rem;
+	font-family: 'Teachers', sans-serif;
+}
+
+.component-wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+}
