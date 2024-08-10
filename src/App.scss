@@ -29,7 +29,8 @@
 	@include content-columns(3);
 	padding: 1rem;
 	&_header,
-	&_themes {
+	&_themes,
+	&_sign-in {
 		background-color: var(--cmdr-color-primary-500);
 	}
 	&_header {
@@ -49,7 +50,6 @@
 
 // Header
 .header {
-	color: #fff;
 	display: flex;
 	align-items: center;
 	grid-gap: 1rem;
@@ -67,6 +67,7 @@
 h1 {
 	text-align: center;
 	letter-spacing: 1px;
+	color: #fff;
 }
 
 // Themes
@@ -82,4 +83,11 @@ h1 {
 .link-default {
 	color: var(--cmdr-color-brand-1);
 	font-weight: 500;
+}
+
+// Sign in
+
+.sign-in {
+	color: #fff;
+	font-size: 2rem;
 }

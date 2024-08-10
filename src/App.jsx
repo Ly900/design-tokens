@@ -33,6 +33,12 @@ function App() {
 					</div>
 				</div>
 			</div>
+
+			<div className="component-wrapper component-wrapper_sign-in">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_sign-in p-4">
+					<div className="sign-in">Enjoy</div>
+				</div>
+			</div>
 		</>
 	);
 }
