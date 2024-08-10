@@ -1,7 +1,19 @@
+:root {
+	--cmdr-color-primary-100: #0667ba;
+	--cmdr-color-primary-200: #0662b2;
+	--cmdr-color-primary-300: #05579e;
+	--cmdr-color-primary-400: #044c8b;
+	--cmdr-color-primary-500: #044177;
+	--cmdr-color-primary-600: #033663;
+	--cmdr-color-primary-700: #022b4f;
+	--cmdr-color-primary-800: #02213b;
+	--cmdr-color-primary-900: #011628;
+	--cmdr-color-brand-1: var(--cmdr-color-primary-100);
+}
+
 #root {
 	font-size: 20px;
 	margin: 0 auto;
-	padding: 2rem;
 	font-family: 'Teachers', sans-serif;
 }
 
@@ -11,13 +23,33 @@
 		1fr;
 }
 
+.header {
+	background-color: var(--cmdr-color-primary-500);
+	padding: 1rem;
+	color: #fff;
+}
+
 .component-wrapper {
 	display: grid;
 	@include content-columns(3);
+	&__inner-wrapper {
+		grid-column: 2/5;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		grid-gap: 1.5rem;
+	}
+}
+
+.globe-icon {
+	max-width: 50px;
+	fill: #fff;
+}
+
+.globe-svg {
+	fill: #fff;
 }
 
 h1 {
 	text-align: center;
-	grid-column: 2/5;
-	margin: 0 auto;
 }
