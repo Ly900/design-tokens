@@ -59,7 +59,7 @@ function App() {
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_mini-tiles">
 					<div className="mini-tiles">
 						<div className="mini-tiles__text-container mb-4">
-							<h2 className="mini-tiles__heading">
+							<h2 className="mini-tiles__heading mb-6">
 								What's your favorite holiday?
 							</h2>
 						</div>
@@ -76,6 +76,20 @@ function App() {
 						<div className="mini-tiles__call-to-action text-center">
 							<button className="btn-secondary">Secondary Button</button>
 						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Rich Text */}
+			<div className="component-wrapper component-wrapper_rich-text">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_rich-text">
+					<div className="rich-text text-center md:text-left">
+						<h2 className="rich-text__subheading uppercase mb-6">
+							Eat Some Seaweed
+						</h2>
+						<p className="rich-text__text text-5xl">
+							Don't Wait! Go each some seaweed now!
+						</p>
 					</div>
 				</div>
 			</div>

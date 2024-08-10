@@ -90,6 +90,12 @@
 			@include content-columns(2);
 		}
 	}
+	&_rich-text {
+		background-color: #fff;
+		@media (min-width: 780px) {
+			@include content-columns(1);
+		}
+	}
 	&__inner-wrapper {
 		&_header {
 			@media (min-width: 780px) {
@@ -116,6 +122,11 @@
 		&_pop-out {
 			@media (min-width: 780px) {
 				grid-column: 2/4;
+			}
+		}
+		&_rich-text {
+			@media (min-width: 780px) {
+				grid-column: 2/3;
 			}
 		}
 	}
@@ -260,5 +271,22 @@ h1 {
 	&__text {
 		font-size: 3.5rem;
 		line-height: 1.14;
+	}
+}
+
+// Rich Text
+
+.rich-text {
+	@media (min-width: 780px) {
+		width: 75%;
+	}
+	&__subheading {
+		font-weight: 500;
+		color: var(--cmdr-color-primary-600);
+		letter-spacing: 1px;
+	}
+	&__text {
+		color: var(--cmdr-color-primary-600);
+		font-weight: 600;
 	}
 }
