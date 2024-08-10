@@ -18,20 +18,18 @@ function App() {
 			<div className="component-wrapper component-wrapper_themes">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_themes p-4">
 					<div className="themes">
-						<div className="buttons-wrapper">
-							<ul>
-								<li>
-									<a href="#" className="link-default">
-										Dark mode
-									</a>
-								</li>
-								<li>
-									<a href="#" className="link-default">
-										Halloween
-									</a>
-								</li>
-							</ul>
-						</div>
+						<ul className="themes__unordered-list">
+							<li>
+								<a href="#" className="link-default">
+									Dark mode
+								</a>
+							</li>
+							<li>
+								<a href="#" className="link-default">
+									Halloween
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

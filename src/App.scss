@@ -51,7 +51,6 @@
 .header {
 	color: #fff;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	grid-gap: 1rem;
 }
@@ -71,6 +70,12 @@ h1 {
 }
 
 // Themes
+.themes {
+	&__unordered-list {
+		display: flex;
+		grid-gap: 2rem;
+	}
+}
 
 // Links
 
