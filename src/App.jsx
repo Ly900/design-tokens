@@ -167,21 +167,41 @@ function App() {
 					<div className="icon-row">
 						<ul className="icon-row__unordered-list text-center">
 							<li className="icon-row__list-item">
+								<img
+									src="/design-tokens/assets/facebook.svg"
+									alt=""
+									className="icon-row__icon"
+								/>
 								<a href="#" className="default-link">
 									Snow crab legs
 								</a>
 							</li>
 							<li className="icon-row__list-item">
+								<img
+									src="/design-tokens/assets/home.svg"
+									alt=""
+									className="icon-row__icon"
+								/>
 								<a href="#" className="default-link">
 									Lobster
 								</a>
 							</li>
 							<li className="icon-row__list-item">
+								<img
+									src="/design-tokens/assets/phone-call.svg"
+									alt=""
+									className="icon-row__icon"
+								/>
 								<a href="#" className="default-link">
 									Blue crabs
 								</a>
 							</li>
 							<li className="icon-row__list-item">
+								<img
+									src="/design-tokens/assets/user.svg"
+									alt=""
+									className="icon-row__icon"
+								/>
 								<a href="#" className="default-link">
 									Oysters
 								</a>

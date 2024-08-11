@@ -382,4 +382,17 @@ h1 {
 			grid-template-columns: 1fr 1fr 1fr 1fr;
 		}
 	}
+	&__list-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		grid-gap: 2rem;
+		.default-link {
+			font-size: 2rem;
+		}
+	}
+	&__icon {
+		max-width: 100px;
+		fill: var(--cmdr-color-brand-1);
+	}
 }
