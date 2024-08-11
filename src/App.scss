@@ -387,8 +387,14 @@ h1 {
 		flex-direction: column;
 		align-items: center;
 		grid-gap: 2rem;
+		margin-bottom: 2rem;
+		@media (min-width: 780px) {
+			margin-bottom: 0;
+		}
 		.default-link {
 			font-size: 2rem;
+			border-bottom: none;
+			white-space: nowrap;
 		}
 	}
 	&__icon {
