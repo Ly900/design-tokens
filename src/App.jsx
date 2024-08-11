@@ -132,7 +132,7 @@ function App() {
 			</div>
 
 			{/* Pop Out */}
-			<div className="component-wrapper component-wrapper_pop-out pb-10">
+			<div className="component-wrapper component-wrapper_pop-out pb-10 mb-6">
 				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_pop-out">
 					<div className="pop-out">
 						<div className="pop-out__left-container mb-4 md:mb-0">
