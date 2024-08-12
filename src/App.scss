@@ -66,6 +66,7 @@
 	--cmdr-color-heading-inverse: var(--cmdr-color-white);
 	--cmdr-color-text-default: var(--cmdr-color-dark);
 	--cmdr-color-text-inverse: var(--cmdr-color-white);
+	--cmdr-color-text-brand-1: var(--cmdr-color-brand-1);
 	--cmdr-color-link-default: var(--cmdr-color-brand-1);
 
 	// Dark Theme
@@ -88,6 +89,7 @@
 		--cmdr-color-text-default: var(--cmdr-color-light-gray-400);
 		--cmdr-color-text-inverse: var(--cmdr-color-light-gray-400);
 		--cmdr-color-link-default: var(--cmdr-color-light-gray-100);
+		--cmdr-color-text-brand-1: var(--cmdr-color-light-gray-400);
 	}
 }
 
@@ -366,7 +368,7 @@ h1 {
 		min-height: 12.375rem;
 		border-radius: 15px;
 		border-color: var(--cmdr-color-brand-1);
-		color: var(--cmdr-color-brand-1);
+		color: var(--cmdr-color-text-brand-1);
 		background-color: var(--cmdr-bg-color-light-blue-100);
 		display: flex;
 		justify-content: center;
