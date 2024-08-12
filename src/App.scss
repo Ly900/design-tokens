@@ -56,6 +56,7 @@
 	--cmdr-color-light-gray-900: #9a989a;
 	--cmdr-base-white: #ffffff;
 	--cmdr-base-black: #0c0d0e;
+	--cmdr-bg-color-base-white: var(--cmdr-base-white);
 	--cmdr-color-brand-1: var(--cmdr-color-primary-blue-100);
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-1);
@@ -72,6 +73,7 @@
 		--cmdr-bg-color-primary-blue-800: var(--cmdr-color-primary-blue-900);
 		--cmdr-bg-color-primary-blue-900: var(--cmdr-color-primary-blue-900);
 		--cmdr-bg-color-light-blue-100: var(--cmdr-color-primary-blue-600);
+		--cmdr-bg-color-base-white: var(--cmdr-color-primary-blue-500);
 	}
 }
 
@@ -166,25 +168,25 @@
 		}
 	}
 	&_rich-text {
-		background-color: #fff;
+		background-color: var(--cmdr-bg-color-base-white);
 		@media (min-width: 780px) {
 			@include content-columns(1);
 		}
 	}
 	&_rich-text2 {
-		background-color: #fff;
+		background-color: var(--cmdr-bg-color-base-white);
 		@media (min-width: 780px) {
 			@include content-columns(1);
 		}
 	}
 	&_rates {
-		background-color: #fff;
+		background-color: var(--cmdr-bg-color-base-white);
 		@media (min-width: 780px) {
 			@include content-columns(3);
 		}
 	}
 	&_icon-row {
-		background-color: #fff;
+		background-color: var(--cmdr-bg-color-base-white);
 		@media (min-width: 780px) {
 			@include content-columns(4);
 		}
@@ -235,7 +237,7 @@
 			}
 		}
 		&_icon-row {
-			background-color: #fff;
+			background-color: var(--cmdr-bg-color-base-white);
 			@media (min-width: 780px) {
 				grid-column: 2/6;
 			}
