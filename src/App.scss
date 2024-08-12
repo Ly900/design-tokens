@@ -61,7 +61,7 @@
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-2);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-1);
-	--cmdr-color-text-base-white: var(--cmdr-color-white);
+	--cmdr-color-text-white: var(--cmdr-color-white);
 	--cmdr-icon-white-opacity: 1;
 	--cmdr-color-heading-default: var(--cmdr-color-primary-blue-600);
 
@@ -376,7 +376,7 @@ h1 {
 }
 
 .pop-out {
-	color: var(--cmdr-color-text-base-white);
+	color: var(--cmdr-color-text-white);
 	text-align: center;
 	@media (min-width: 780px) {
 		display: grid;
