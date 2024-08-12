@@ -55,13 +55,13 @@
 	.theme_dark {
 		--cmdr-background-primary-blue-100: var(--cmdr-color-primary-blue-900);
 		--cmdr-background-primary-blue-200: var(--cmdr-color-primary-blue-900);
-		--cmdr-background-primary-blue-300: var(--cmdr-color-primary-blue-900);
-		--cmdr-background-primary-blue-400: var(--cmdr-color-primary-blue-900);
-		--cmdr-background-primary-blue-500: var(--cmdr-color-primary-blue-900);
-		--cmdr-background-primary-blue-600: var(--cmdr-color-primary-blue-900);
-		--cmdr-background-primary-blue-700: var(--cmdr-color-primary-blue-900);
-		--cmdr-background-primary-blue-800: var(--cmdr-color-primary-blue-900);
-		--cmdr-background-primary-blue-900: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-300: var(--cmdr-color-primary-blue-800);
+		--cmdr-background-primary-blue-400: var(--cmdr-color-primary-blue-800);
+		--cmdr-background-primary-blue-500: var(--cmdr-color-primary-blue-800);
+		--cmdr-background-primary-blue-600: var(--cmdr-color-primary-blue-700);
+		--cmdr-background-primary-blue-700: var(--cmdr-color-primary-blue-700);
+		--cmdr-background-primary-blue-800: var(--cmdr-color-primary-blue-700);
+		--cmdr-background-primary-blue-900: var(--cmdr-color-primary-blue-600);
 	}
 }
 
@@ -148,7 +148,7 @@
 		}
 	}
 	&_mini-tiles2 {
-		background-color: var(--cmdr-color-primary-blue-600);
+		background-color: var(--cmdr-background-primary-blue-600);
 	}
 	&_pop-out {
 		@media (min-width: 780px) {
@@ -282,7 +282,7 @@ h1 {
 		grid-template-rows: repeat(10, 1fr);
 	}
 	&__left-container {
-		background-color: var(--cmdr-color-primary-blue-500);
+		background-color: var(--cmdr-background-primary-blue-500);
 		padding: 2rem;
 		font-weight: 500;
 		letter-spacing: 1px;
