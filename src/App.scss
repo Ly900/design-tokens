@@ -66,6 +66,7 @@
 	--cmdr-color-heading-inverse: var(--cmdr-color-white);
 	--cmdr-color-text-default: var(--cmdr-color-dark);
 	--cmdr-color-text-inverse: var(--cmdr-color-white);
+	--cmdr-color-link-default: var(--cmdr-color-brand-1);
 
 	// Dark Theme
 	.theme_dark {
@@ -82,10 +83,11 @@
 		--cmdr-bg-color-white: var(--cmdr-color-primary-blue-500);
 		--cmdr-icon-white-opacity: 0.8;
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
-		--cmdr-color-heading-default: var(--cmdr-color-light-gray-300);
-		--cmdr-color-heading-inverse: var(--cmdr-color-light-gray-300);
-		--cmdr-color-text-default: var(--cmdr-color-light-gray-300);
-		--cmdr-color-text-inverse: var(--cmdr-color-light-gray-300);
+		--cmdr-color-heading-default: var(--cmdr-color-light-gray-400);
+		--cmdr-color-heading-inverse: var(--cmdr-color-light-gray-400);
+		--cmdr-color-text-default: var(--cmdr-color-light-gray-400);
+		--cmdr-color-text-inverse: var(--cmdr-color-light-gray-400);
+		--cmdr-color-link-default: var(--cmdr-color-light-gray-100);
 	}
 }
 
@@ -140,7 +142,7 @@
 
 @mixin default-link {
 	border-bottom: 1px dotted;
-	color: #0667ba;
+	color: var(--cmdr-color-link-default);
 	text-decoration: none;
 }
 
@@ -294,7 +296,7 @@ h1 {
 // Links
 
 .link-default {
-	color: var(--cmdr-color-brand-1);
+	color: var(--cmdr-color-link-default);
 	font-weight: 500;
 }
 
@@ -385,7 +387,6 @@ h1 {
 }
 
 .pop-out {
-	color: var(--cmdr-color-text-inverse);
 	text-align: center;
 	@media (min-width: 780px) {
 		display: grid;
@@ -409,12 +410,14 @@ h1 {
 		border-radius: 15px;
 	}
 	&__subheading {
+		color: var(--cmdr-color-heading-inverse);
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
 	&__text {
 		font-size: 3.5rem;
 		line-height: 1.14;
+		color: var(--cmdr-color-text-inverse);
 	}
 }
 
