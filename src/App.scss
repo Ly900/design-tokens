@@ -61,9 +61,10 @@
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-2);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-1);
-	--cmdr-color-text-white: var(--cmdr-color-white);
 	--cmdr-icon-white-opacity: 1;
 	--cmdr-color-heading-default: var(--cmdr-color-primary-blue-600);
+	--cmdr-color-heading-inverse: var(--cmdr-color-white);
+	--cmdr-color-text-inverse: var(--cmdr-color-white);
 
 	// Dark Theme
 	.theme_dark {
@@ -81,6 +82,8 @@
 		--cmdr-icon-white-opacity: 0.8;
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
 		--cmdr-color-heading-default: var(--cmdr-color-light-gray-300);
+		--cmdr-color-heading-inverse: var(--cmdr-color-light-gray-300);
+		--cmdr-color-text-inverse: var(--cmdr-color-light-gray-300);
 	}
 }
 
@@ -271,7 +274,7 @@
 h1 {
 	text-align: center;
 	letter-spacing: 1px;
-	color: #fff;
+	color: var(--cmdr-color-heading-inverse);
 }
 
 // Themes
@@ -312,7 +315,7 @@ h1 {
 		}
 	}
 	&__text {
-		color: #fff;
+		color: var(--cmdr-color-text-inverse);
 	}
 	&__right-container {
 		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
@@ -376,7 +379,7 @@ h1 {
 }
 
 .pop-out {
-	color: var(--cmdr-color-text-white);
+	color: var(--cmdr-color-text-inverse);
 	text-align: center;
 	@media (min-width: 780px) {
 		display: grid;
