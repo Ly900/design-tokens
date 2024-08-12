@@ -140,8 +140,7 @@
 }
 
 * {
-	transition: background-color 0.5s linear;
-	transition: color 0.5s linear;
+	transition: all 0.5s linear;
 }
 
 .btn-default {
