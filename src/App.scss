@@ -98,7 +98,6 @@
 	font-size: 20px;
 	margin: 0 auto;
 	font-family: 'Teachers', sans-serif;
-	// padding-bottom: 10rem;
 }
 
 @mixin content-columns($columns) {
@@ -134,6 +133,16 @@
 	vertical-align: middle;
 }
 
+@mixin default-link {
+	border-bottom: 1px dotted;
+	color: var(--cmdr-color-link-default);
+	text-decoration: none;
+}
+
+* {
+	transition: background-color 0.5s linear;
+}
+
 .btn-default {
 	@include btn-default();
 }
@@ -141,12 +150,6 @@
 .btn-secondary {
 	@include btn-default();
 	background-color: var(--cmdr-button-secondary-bg-color);
-}
-
-@mixin default-link {
-	border-bottom: 1px dotted;
-	color: var(--cmdr-color-link-default);
-	text-decoration: none;
 }
 
 .default-link {
