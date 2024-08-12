@@ -54,13 +54,15 @@
 	--cmdr-color-light-gray-700: #aeadae;
 	--cmdr-color-light-gray-800: #a4a2a4;
 	--cmdr-color-light-gray-900: #9a989a;
-	--cmdr-base-white: #ffffff;
-	--cmdr-base-black: #0c0d0e;
-	--cmdr-bg-color-base-white: var(--cmdr-base-white);
+	--cmdr-color-base-white: #ffffff;
+	--cmdr-color-base-black: #0c0d0e;
+	--cmdr-bg-color-base-white: var(--cmdr-color-base-white);
 	--cmdr-color-brand-1: var(--cmdr-color-primary-blue-100);
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-1);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-2);
+	--cmdr-color-text-base-white: var(--cmdr-color-base-white);
+
 	// Dark Theme
 	.theme_dark {
 		--cmdr-bg-color-primary-blue-100: var(--cmdr-color-primary-blue-700);
@@ -74,6 +76,7 @@
 		--cmdr-bg-color-primary-blue-900: var(--cmdr-color-primary-blue-900);
 		--cmdr-bg-color-light-blue-100: var(--cmdr-color-primary-blue-600);
 		--cmdr-bg-color-base-white: var(--cmdr-color-primary-blue-500);
+		--cmdr-color-text-base-white: var(--cmdr-color-light-gray-900);
 	}
 }
 
@@ -264,7 +267,7 @@
 h1 {
 	text-align: center;
 	letter-spacing: 1px;
-	color: #fff;
+	color: var(--cmdr-color-base-white);
 }
 
 // Themes
@@ -284,7 +287,6 @@ h1 {
 
 // Sign in
 .sign-in {
-	color: #fff;
 	font-size: 2rem;
 	display: flex;
 	flex-direction: column-reverse;
@@ -304,6 +306,9 @@ h1 {
 			border-top-left-radius: 15px;
 			border-bottom-left-radius: 15px;
 		}
+	}
+	&__text {
+		color: var(--cmdr-color-base-white);
 	}
 	&__right-container {
 		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
@@ -356,18 +361,18 @@ h1 {
 
 .mini-tiles2 {
 	&__heading {
-		color: #fff;
+		color: var(--cmdr-color-base-white);
 		font-weight: 500;
 	}
 	&__list-item {
 		background-color: var(--cmdr-color-primary-blue-700);
 		border: none;
-		color: #fff;
+		color: var(--cmdr-color-base-white);
 	}
 }
 
 .pop-out {
-	color: #fff;
+	color: var(--cmdr-color-base-white);
 	text-align: center;
 	@media (min-width: 780px) {
 		display: grid;
