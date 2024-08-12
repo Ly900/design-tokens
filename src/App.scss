@@ -54,14 +54,14 @@
 	--cmdr-color-light-gray-700: #aeadae;
 	--cmdr-color-light-gray-800: #a4a2a4;
 	--cmdr-color-light-gray-900: #9a989a;
-	--cmdr-color-base-white: #ffffff;
-	--cmdr-color-base-black: #0c0d0e;
-	--cmdr-bg-color-base-white: var(--cmdr-color-base-white);
+	--cmdr-color-white: #ffffff;
+	--cmdr-color-black: #0c0d0e;
+	--cmdr-bg-color-base-white: var(--cmdr-color-white);
 	--cmdr-color-brand-1: var(--cmdr-color-primary-blue-100);
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-1);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-2);
-	--cmdr-color-text-base-white: var(--cmdr-color-base-white);
+	--cmdr-color-text-base-white: var(--cmdr-color-white);
 	--cmdr-icon-base-white-opacity: 1;
 	--cmdr-text-base-white-opacity: 1;
 
@@ -366,14 +366,14 @@ h1 {
 
 .mini-tiles2 {
 	&__heading {
-		color: var(--cmdr-color-base-white);
+		color: var(--cmdr-color-white);
 		opacity: var(--cmdr-text-base-white-opacity);
 		font-weight: 500;
 	}
 	&__list-item {
 		background-color: var(--cmdr-color-primary-blue-700);
 		border: none;
-		color: var(--cmdr-color-base-white);
+		color: var(--cmdr-color-white);
 		opacity: var(--cmdr-text-base-white-opacity);
 	}
 }
