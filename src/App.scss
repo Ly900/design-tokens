@@ -71,6 +71,7 @@
 		--cmdr-bg-color-primary-blue-700: var(--cmdr-color-primary-blue-700);
 		--cmdr-bg-color-primary-blue-800: var(--cmdr-color-primary-blue-700);
 		--cmdr-bg-color-primary-blue-900: var(--cmdr-color-primary-blue-600);
+		--cmdr-bg-color-light-blue-100: var(--cmdr-color-primary-blue-700);
 	}
 }
 
@@ -151,7 +152,7 @@
 		padding-bottom: 0.5rem;
 	}
 	&_mini-tiles {
-		background-color: var(--cmdr-color-light-blue-100);
+		background-color: var(--cmdr-bg-color-light-blue-100);
 		@media (min-width: 780px) {
 			@include content-columns(6);
 		}
@@ -195,7 +196,7 @@
 			}
 		}
 		&_themes {
-			background-color: var(--cmdr-color-light-blue-100);
+			background-color: var(--cmdr-bg-color-light-blue-100);
 			border-radius: 15px;
 			@media (min-width: 780px) {
 				grid-column: 2 / 5;
@@ -303,7 +304,7 @@ h1 {
 		}
 	}
 	&__right-container {
-		background-image: url(https://picsum.photos/1000/);
+		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
 		background-repeat: no-repeat;
 		background-size: cover;
 		min-height: 31.688rem;
@@ -381,7 +382,7 @@ h1 {
 		}
 	}
 	&__right-container {
-		background-image: url(https://picsum.photos/1000/);
+		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/GettyImages-1437767254?qlt=80&wid=1600&ts=1689965334414&dpr=off);
 		background-repeat: no-repeat;
 		background-size: cover;
 		min-height: 31.688rem;
@@ -407,7 +408,7 @@ h1 {
 	}
 
 	&__left-container {
-		background-image: url(https://picsum.photos/1000/);
+		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/gettyimages-1127639168?qlt=80&wid=480&ts=1689214667956&fit=constrain&dpr=off);
 		background-repeat: no-repeat;
 		background-size: cover;
 		min-height: 31.688rem;
