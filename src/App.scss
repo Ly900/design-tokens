@@ -118,10 +118,13 @@
 		padding-bottom: 0.5rem;
 	}
 	&_mini-tiles {
-		background-color: #f0f8ff;
+		background-color: var(--cmdr-color-light-blue-100);
 		@media (min-width: 780px) {
 			@include content-columns(6);
 		}
+	}
+	&_mini-tiles2 {
+		background-color: var(--cmdr-color-primary-blue-600);
 	}
 	&_pop-out {
 		@media (min-width: 780px) {
@@ -315,6 +318,18 @@ h1 {
 	}
 }
 
+.mini-tiles2 {
+	&__heading {
+		color: #fff;
+		font-weight: 500;
+	}
+	&__list-item {
+		background-color: var(--cmdr-color-primary-blue-700);
+		border: none;
+		color: #fff;
+	}
+}
+
 .pop-out {
 	color: #fff;
 	text-align: center;
@@ -404,6 +419,7 @@ h1 {
 // Icon Row
 
 .icon-row {
+	padding-bottom: 1rem;
 	&__unordered-list {
 		@media (min-width: 780px) {
 			display: grid;

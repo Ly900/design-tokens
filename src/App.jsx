@@ -210,6 +210,44 @@ function App() {
 					</div>
 				</div>
 			</div>
+
+			{/* Mini Tiles */}
+			<div className="component-wrapper component-wrapper_mini-tiles component-wrapper_mini-tiles2 pb-6">
+				<div className="component-wrapper__inner-wrapper component-wrapper__inner-wrapper_mini-tiles component-wrapper__inner-wrapper_mini-tiles2">
+					<div className="mini-tiles mini-tiles2">
+						<div className="mini-tiles__text-container mb-4">
+							<h2 className="mini-tiles__heading mini-tiles2__heading mb-6">
+								What is the best cat breed?
+							</h2>
+						</div>
+						<div className="mini-tiles__tiles-container mb-10">
+							<ul className="mini-tiles__unordered-list">
+								<li className="mini-tiles__list-item mini-tiles2__list-item p-2">
+									Short-haired tabby
+								</li>
+								<li className="mini-tiles__list-item mini-tiles2__list-item p-2">
+									Long haired
+								</li>
+								<li className="mini-tiles__list-item mini-tiles2__list-item p-2">
+									Persian
+								</li>
+								<li className="mini-tiles__list-item mini-tiles2__list-item p-2">
+									Siamese
+								</li>
+								<li className="mini-tiles__list-item mini-tiles2__list-item p-2">
+									Ragdoll
+								</li>
+								<li className="mini-tiles__list-item mini-tiles2__list-item p-2">
+									Maine Coon
+								</li>
+							</ul>
+						</div>
+						<div className="mini-tiles__call-to-action text-center">
+							<button className="btn-secondary">Secondary Button</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</>
 	);
 }
