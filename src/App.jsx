@@ -3,6 +3,13 @@ import './App.scss';
 
 function App() {
 	const [count, setCount] = useState(0);
+	const bodyEl = document.getElementsByTagName('body')[0];
+
+	function handleThemeClick(mode) {
+		if (mode === 'dark') {
+			bodyEl.classList.toggle('theme_dark');
+		}
+	}
 
 	return (
 		<>
@@ -22,7 +29,12 @@ function App() {
 					<div className="themes">
 						<ul className="themes__unordered-list">
 							<li>
-								<button className="btn-secondary m-0">Dark Mode</button>
+								<button
+									className="btn-secondary dark-mode m-0"
+									onClick={() => handleThemeClick('dark')}
+								>
+									Dark Mode
+								</button>
 							</li>
 							<li>
 								<button className="btn-secondary m-0">Pinks</button>

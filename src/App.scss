@@ -1,13 +1,5 @@
 :root {
-	// --cmdr-color-primary-100: #0667ba;
-	// --cmdr-color-primary-200: #0662b2;
-	// --cmdr-color-primary-300: #05579e;
-	// --cmdr-color-primary-400: #044c8b;
-	// --cmdr-color-primary-500: #144881;
-	// --cmdr-color-primary-600: #0f3d70;
-	// --cmdr-color-primary-700: #022b4f;
-	// --cmdr-color-primary-800: #02213b;
-	// --cmdr-color-primary-900: #011628;
+	// Light Theme
 	--cmdr-color-primary-blue-100: #0667ba;
 	--cmdr-color-primary-blue-200: #0662b2;
 	--cmdr-color-primary-blue-300: #05579e;
@@ -50,6 +42,7 @@
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-1);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-2);
+	// Dark Theme
 }
 
 #root {
