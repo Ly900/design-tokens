@@ -76,7 +76,7 @@
 		--cmdr-bg-color-primary-blue-900: var(--cmdr-color-primary-blue-900);
 		--cmdr-bg-color-light-blue-100: var(--cmdr-color-primary-blue-600);
 		--cmdr-bg-color-base-white: var(--cmdr-color-primary-blue-500);
-		--cmdr-color-text-base-white: var(--cmdr-color-light-gray-900);
+		--cmdr-color-text-base-white: var(--cmdr-color-light-gray-400);
 	}
 }
 
@@ -267,7 +267,7 @@
 h1 {
 	text-align: center;
 	letter-spacing: 1px;
-	color: var(--cmdr-color-base-white);
+	color: var(--cmdr-color-text-base-white);
 }
 
 // Themes
@@ -308,7 +308,7 @@ h1 {
 		}
 	}
 	&__text {
-		color: var(--cmdr-color-base-white);
+		color: var(--cmdr-color-text-base-white);
 	}
 	&__right-container {
 		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
@@ -372,7 +372,7 @@ h1 {
 }
 
 .pop-out {
-	color: var(--cmdr-color-base-white);
+	color: var(--cmdr-color-text-base-white);
 	text-align: center;
 	@media (min-width: 780px) {
 		display: grid;
