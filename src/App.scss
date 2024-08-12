@@ -62,8 +62,8 @@
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-2);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-1);
 	--cmdr-color-text-base-white: var(--cmdr-color-white);
-	--cmdr-icon-base-white-opacity: 1;
-	--cmdr-text-base-white-opacity: 1;
+	--cmdr-icon-white-opacity: 1;
+	--cmdr-text-white-opacity: 1;
 
 	// Dark Theme
 	.theme_dark {
@@ -78,8 +78,8 @@
 		--cmdr-bg-color-primary-blue-900: var(--cmdr-color-primary-blue-900);
 		--cmdr-bg-color-light-blue-100: var(--cmdr-color-primary-blue-600);
 		--cmdr-bg-color-white: var(--cmdr-color-primary-blue-500);
-		--cmdr-icon-base-white-opacity: 0.8;
-		--cmdr-text-base-white-opacity: 0.8;
+		--cmdr-icon-white-opacity: 0.8;
+		--cmdr-text-white-opacity: 0.8;
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
 		// --cmdr-button-secondary-bg-color: var(--cmdr-color-blue-900);
 	}
@@ -105,7 +105,7 @@
 	border-radius: 6px;
 	box-shadow: 0 1px 3px 0 #0000004d;
 	color: var(--cmdr-color-white);
-	opacity: var(--cmdr-text-base-white-opacity);
+	opacity: var(--cmdr-text-white-opacity);
 	cursor: pointer;
 	display: inline-block;
 	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -263,7 +263,7 @@
 
 .globe-icon {
 	max-width: 50px;
-	opacity: var(--cmdr-icon-base-white-opacity);
+	opacity: var(--cmdr-icon-white-opacity);
 }
 
 .globe-svg {
@@ -274,7 +274,7 @@ h1 {
 	text-align: center;
 	letter-spacing: 1px;
 	color: #fff;
-	opacity: var(--cmdr-text-base-white-opacity);
+	opacity: var(--cmdr-text-white-opacity);
 }
 
 // Themes
@@ -316,7 +316,7 @@ h1 {
 	}
 	&__text {
 		color: #fff;
-		opacity: var(--cmdr-text-base-white-opacity);
+		opacity: var(--cmdr-text-white-opacity);
 	}
 	&__right-container {
 		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
@@ -370,20 +370,20 @@ h1 {
 .mini-tiles2 {
 	&__heading {
 		color: var(--cmdr-color-white);
-		opacity: var(--cmdr-text-base-white-opacity);
+		opacity: var(--cmdr-text-white-opacity);
 		font-weight: 500;
 	}
 	&__list-item {
 		background-color: var(--cmdr-color-primary-blue-700);
 		border: none;
 		color: var(--cmdr-color-white);
-		opacity: var(--cmdr-text-base-white-opacity);
+		opacity: var(--cmdr-text-white-opacity);
 	}
 }
 
 .pop-out {
 	color: var(--cmdr-color-text-base-white);
-	opacity: var(--cmdr-text-base-white-opacity);
+	opacity: var(--cmdr-text-white-opacity);
 	text-align: center;
 	@media (min-width: 780px) {
 		display: grid;
