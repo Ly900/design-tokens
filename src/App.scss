@@ -9,6 +9,15 @@
 	--cmdr-color-primary-blue-700: #022b4f;
 	--cmdr-color-primary-blue-800: #02213b;
 	--cmdr-color-primary-blue-900: #011628;
+	--cmdr-background-primary-blue-100: var(--cmdr-color-primary-blue-100);
+	--cmdr-background-primary-blue-200: var(--cmdr-color-primary-blue-200);
+	--cmdr-background-primary-blue-300: var(--cmdr-color-primary-blue-300);
+	--cmdr-background-primary-blue-400: var(--cmdr-color-primary-blue-400);
+	--cmdr-background-primary-blue-500: var(--cmdr-color-primary-blue-500);
+	--cmdr-background-primary-blue-600: var(--cmdr-color-primary-blue-600);
+	--cmdr-background-primary-blue-700: var(--cmdr-color-primary-blue-700);
+	--cmdr-background-primary-blue-800: var(--cmdr-color-primary-blue-800);
+	--cmdr-background-primary-blue-900: var(--cmdr-color-primary-blue-900);
 	--cmdr-color-orange-100: #f5a966;
 	--cmdr-color-orange-200: #f49e52;
 	--cmdr-color-orange-300: #f3933f;
@@ -42,7 +51,19 @@
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-1);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-2);
-	// Dark Theme
+}
+
+// Dark Theme
+.theme_dark {
+	--cmdr-background-primary-blue-100: var(--cmdr-color-primary-blue-900);
+	--cmdr-background-primary-blue-200: var(--cmdr-color-primary-blue-900);
+	--cmdr-background-primary-blue-300: var(--cmdr-color-primary-blue-900);
+	--cmdr-background-primary-blue-400: var(--cmdr-color-primary-blue-900);
+	--cmdr-background-primary-blue-500: var(--cmdr-color-primary-blue-900);
+	--cmdr-background-primary-blue-600: var(--cmdr-color-primary-blue-900);
+	--cmdr-background-primary-blue-700: var(--cmdr-color-primary-blue-900);
+	--cmdr-background-primary-blue-800: var(--cmdr-color-primary-blue-900);
+	--cmdr-background-primary-blue-900: var(--cmdr-color-primary-blue-900);
 }
 
 #root {
@@ -116,7 +137,7 @@
 	&_themes,
 	&_sign-in,
 	&_pop-out {
-		background-color: var(--cmdr-color-primary-blue-600);
+		background-color: var(--cmdr-background-primary-blue-100);
 	}
 	&_header {
 		padding-bottom: 0.5rem;
