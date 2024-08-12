@@ -51,19 +51,18 @@
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-1);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-2);
-}
-
-// Dark Theme
-.theme_dark {
-	--cmdr-background-primary-blue-100: var(--cmdr-color-primary-blue-900);
-	--cmdr-background-primary-blue-200: var(--cmdr-color-primary-blue-900);
-	--cmdr-background-primary-blue-300: var(--cmdr-color-primary-blue-900);
-	--cmdr-background-primary-blue-400: var(--cmdr-color-primary-blue-900);
-	--cmdr-background-primary-blue-500: var(--cmdr-color-primary-blue-900);
-	--cmdr-background-primary-blue-600: var(--cmdr-color-primary-blue-900);
-	--cmdr-background-primary-blue-700: var(--cmdr-color-primary-blue-900);
-	--cmdr-background-primary-blue-800: var(--cmdr-color-primary-blue-900);
-	--cmdr-background-primary-blue-900: var(--cmdr-color-primary-blue-900);
+	// Dark Theme
+	.theme_dark {
+		--cmdr-background-primary-blue-100: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-200: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-300: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-400: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-500: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-600: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-700: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-800: var(--cmdr-color-primary-blue-900);
+		--cmdr-background-primary-blue-900: var(--cmdr-color-primary-blue-900);
+	}
 }
 
 #root {
