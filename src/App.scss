@@ -62,16 +62,16 @@
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-2);
 	// Dark Theme
 	.theme_dark {
-		--cmdr-bg-color-primary-blue-100: var(--cmdr-color-primary-blue-900);
-		--cmdr-bg-color-primary-blue-200: var(--cmdr-color-primary-blue-900);
-		--cmdr-bg-color-primary-blue-300: var(--cmdr-color-primary-blue-800);
-		--cmdr-bg-color-primary-blue-400: var(--cmdr-color-primary-blue-800);
+		--cmdr-bg-color-primary-blue-100: var(--cmdr-color-primary-blue-700);
+		--cmdr-bg-color-primary-blue-200: var(--cmdr-color-primary-blue-700);
+		--cmdr-bg-color-primary-blue-300: var(--cmdr-color-primary-blue-700);
+		--cmdr-bg-color-primary-blue-400: var(--cmdr-color-primary-blue-700);
 		--cmdr-bg-color-primary-blue-500: var(--cmdr-color-primary-blue-800);
-		--cmdr-bg-color-primary-blue-600: var(--cmdr-color-primary-blue-700);
-		--cmdr-bg-color-primary-blue-700: var(--cmdr-color-primary-blue-700);
-		--cmdr-bg-color-primary-blue-800: var(--cmdr-color-primary-blue-700);
-		--cmdr-bg-color-primary-blue-900: var(--cmdr-color-primary-blue-600);
-		--cmdr-bg-color-light-blue-100: var(--cmdr-color-primary-blue-700);
+		--cmdr-bg-color-primary-blue-600: var(--cmdr-color-primary-blue-800);
+		--cmdr-bg-color-primary-blue-700: var(--cmdr-color-primary-blue-900);
+		--cmdr-bg-color-primary-blue-800: var(--cmdr-color-primary-blue-900);
+		--cmdr-bg-color-primary-blue-900: var(--cmdr-color-primary-blue-900);
+		--cmdr-bg-color-light-blue-100: var(--cmdr-color-primary-blue-600);
 	}
 }
 
@@ -345,7 +345,7 @@ h1 {
 		border-radius: 15px;
 		border-color: var(--cmdr-color-brand-1);
 		color: var(--cmdr-color-brand-1);
-		background-color: #f5faff;
+		background-color: var(--cmdr-bg-color-light-blue-100);
 		display: flex;
 		justify-content: center;
 		align-items: center;
