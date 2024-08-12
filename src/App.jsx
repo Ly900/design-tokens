@@ -30,14 +30,14 @@ function App() {
 						<ul className="themes__unordered-list">
 							<li>
 								<button
-									className="btn-secondary dark-mode m-0"
+									className="btn-default dark-mode m-0"
 									onClick={() => handleThemeClick('dark')}
 								>
 									Dark Mode
 								</button>
 							</li>
 							<li>
-								<button className="btn-secondary m-0" disabled>
+								<button className="btn-default m-0" disabled>
 									Pinks
 								</button>
 							</li>

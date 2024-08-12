@@ -59,8 +59,8 @@
 	--cmdr-bg-color-base-white: var(--cmdr-color-white);
 	--cmdr-color-brand-1: var(--cmdr-color-primary-blue-100);
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
-	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-1);
-	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-2);
+	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-2);
+	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-1);
 	--cmdr-color-text-base-white: var(--cmdr-color-white);
 	--cmdr-icon-base-white-opacity: 1;
 	--cmdr-text-base-white-opacity: 1;
@@ -80,6 +80,8 @@
 		--cmdr-bg-color-base-white: var(--cmdr-color-primary-blue-500);
 		--cmdr-icon-base-white-opacity: 0.8;
 		--cmdr-text-base-white-opacity: 0.8;
+		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
+		// --cmdr-button-secondary-bg-color: var(--cmdr-color-blue-900);
 	}
 }
 
