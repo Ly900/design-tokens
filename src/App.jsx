@@ -22,14 +22,10 @@ function App() {
 					<div className="themes">
 						<ul className="themes__unordered-list">
 							<li>
-								<a href="#" className="link-default">
-									Dark mode
-								</a>
+								<button className="btn-secondary m-0">Dark Mode</button>
 							</li>
 							<li>
-								<a href="#" className="link-default">
-									Halloween
-								</a>
+								<button className="btn-secondary m-0">Pinks</button>
 							</li>
 						</ul>
 					</div>
@@ -223,7 +219,7 @@ function App() {
 						<div className="mini-tiles__tiles-container mb-10">
 							<ul className="mini-tiles__unordered-list">
 								<li className="mini-tiles__list-item mini-tiles2__list-item p-2">
-									Short-haired tabby
+									Tabby
 								</li>
 								<li className="mini-tiles__list-item mini-tiles2__list-item p-2">
 									Long haired
