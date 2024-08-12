@@ -55,7 +55,7 @@
 	--cmdr-color-light-gray-800: #a4a2a4;
 	--cmdr-color-light-gray-900: #9a989a;
 	--cmdr-color-white: #ffffff;
-	--cmdr-color-black: #0c0d0e;
+	--cmdr-color-dark: #0c0d0e;
 	--cmdr-bg-color-white: var(--cmdr-color-white);
 	--cmdr-color-brand-1: var(--cmdr-color-primary-blue-100);
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
@@ -64,6 +64,7 @@
 	--cmdr-icon-white-opacity: 1;
 	--cmdr-color-heading-default: var(--cmdr-color-primary-blue-600);
 	--cmdr-color-heading-inverse: var(--cmdr-color-white);
+	--cmdr-color-text-default: var(--cmdr-color-dark);
 	--cmdr-color-text-inverse: var(--cmdr-color-white);
 
 	// Dark Theme
@@ -83,6 +84,7 @@
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
 		--cmdr-color-heading-default: var(--cmdr-color-light-gray-300);
 		--cmdr-color-heading-inverse: var(--cmdr-color-light-gray-300);
+		--cmdr-color-text-default: var(--cmdr-color-light-gray-300);
 		--cmdr-color-text-inverse: var(--cmdr-color-light-gray-300);
 	}
 }
@@ -144,6 +146,10 @@
 
 .default-link {
 	@include default-link;
+}
+
+p {
+	color: var(--cmdr-color-text-default);
 }
 
 // Component wrapper containers
