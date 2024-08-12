@@ -37,7 +37,9 @@ function App() {
 								</button>
 							</li>
 							<li>
-								<button className="btn-secondary m-0">Pinks</button>
+								<button className="btn-secondary m-0" disabled>
+									Pinks
+								</button>
 							</li>
 						</ul>
 					</div>
