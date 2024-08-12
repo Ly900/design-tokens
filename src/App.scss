@@ -62,6 +62,7 @@
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-1);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-2);
 	--cmdr-color-text-base-white: var(--cmdr-color-base-white);
+	--cmdr-icon-base-white-opacity: 1;
 
 	// Dark Theme
 	.theme_dark {
@@ -77,6 +78,7 @@
 		--cmdr-bg-color-light-blue-100: var(--cmdr-color-primary-blue-600);
 		--cmdr-bg-color-base-white: var(--cmdr-color-primary-blue-500);
 		--cmdr-color-text-base-white: var(--cmdr-color-light-gray-400);
+		--cmdr-icon-base-white-opacity: 0.5;
 	}
 }
 
@@ -257,7 +259,7 @@
 
 .globe-icon {
 	max-width: 50px;
-	fill: #fff;
+	opacity: var(--cmdr-icon-base-white-opacity);
 }
 
 .globe-svg {
