@@ -64,6 +64,7 @@
 	--cmdr-color-text-base-white: var(--cmdr-color-white);
 	--cmdr-icon-white-opacity: 1;
 	--cmdr-text-white-opacity: 1;
+	--cmdr-color-heading-default: var(--cmdr-color-primary-blue-600);
 
 	// Dark Theme
 	.theme_dark {
@@ -81,7 +82,6 @@
 		--cmdr-icon-white-opacity: 0.8;
 		--cmdr-text-white-opacity: 0.8;
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
-		// --cmdr-button-secondary-bg-color: var(--cmdr-color-blue-900);
 	}
 }
 
@@ -336,7 +336,7 @@ h1 {
 .mini-tiles {
 	&__heading {
 		font-size: 2rem;
-		color: var(--cmdr-color-primary-blue-600);
+		color: var(--cmdr-color-heading-default);
 		font-weight: 600;
 		border-left: 0.5rem var(--cmdr-color-brand-2) solid;
 		padding-left: 0.75rem;
@@ -435,7 +435,7 @@ h1 {
 	&__subheading {
 		font-size: 2rem;
 		font-weight: 600;
-		color: #0f3d70;
+		color: var(--cmdr-color-heading-default);
 	}
 }
 
@@ -447,11 +447,11 @@ h1 {
 	}
 	&__subheading {
 		font-weight: 500;
-		color: var(--cmdr-color-primary-blue-600);
+		color: var(--cmdr-color-heading-default);
 		letter-spacing: 1px;
 	}
 	&__text {
-		color: var(--cmdr-color-primary-blue-600);
+		color: var(--cmdr-color-heading-default);
 		font-weight: 600;
 	}
 }
@@ -459,11 +459,11 @@ h1 {
 .rich-text2 {
 	&__subheading {
 		font-weight: 500;
-		color: var(--cmdr-color-primary-blue-600);
+		color: var(--cmdr-color-heading-default);
 		letter-spacing: 1px;
 	}
 	&__text {
-		color: var(--cmdr-color-primary-blue-600);
+		color: var(--cmdr-color-heading-default);
 		font-weight: 600;
 	}
 }
