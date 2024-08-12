@@ -1,16 +1,33 @@
 :root {
-	--cmdr-color-primary-100: #0667ba;
-	--cmdr-color-primary-200: #0662b2;
-	--cmdr-color-primary-300: #05579e;
-	--cmdr-color-primary-400: #044c8b;
-	--cmdr-color-primary-500: #144881;
-	--cmdr-color-primary-600: #0f3d70;
-	--cmdr-color-primary-700: #022b4f;
-	--cmdr-color-primary-800: #02213b;
-	--cmdr-color-primary-900: #011628;
-	--cmdr-color-secondary: #ed780f;
-	--cmdr-color-brand-1: var(--cmdr-color-primary-100);
-	--cmdr-color-brand-2: var(--cmdr-color-secondary);
+	// --cmdr-color-primary-100: #0667ba;
+	// --cmdr-color-primary-200: #0662b2;
+	// --cmdr-color-primary-300: #05579e;
+	// --cmdr-color-primary-400: #044c8b;
+	// --cmdr-color-primary-500: #144881;
+	// --cmdr-color-primary-600: #0f3d70;
+	// --cmdr-color-primary-700: #022b4f;
+	// --cmdr-color-primary-800: #02213b;
+	// --cmdr-color-primary-900: #011628;
+	--cmdr-color-blue-100: #0667ba;
+	--cmdr-color-blue-200: #0662b2;
+	--cmdr-color-blue-300: #05579e;
+	--cmdr-color-blue-400: #044c8b;
+	--cmdr-color-blue-500: #144881;
+	--cmdr-color-blue-600: #0f3d70;
+	--cmdr-color-blue-700: #022b4f;
+	--cmdr-color-blue-800: #02213b;
+	--cmdr-color-blue-900: #011628;
+	--cmdr-color-orange-100: #f5a966;
+	--cmdr-color-orange-200: #f49e52;
+	--cmdr-color-orange-300: #f3933f;
+	--cmdr-color-orange-400: #f2882c;
+	--cmdr-color-orange-500: #ed780f;
+	--cmdr-color-orange-600: #e6730f;
+	--cmdr-color-orange-700: #d36a0d;
+	--cmdr-color-orange-800: #c0600c;
+	--cmdr-color-orange-900: #ad560b;
+	--cmdr-color-brand-1: var(--cmdr-color-blue-100);
+	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 }
 
 #root {
@@ -84,7 +101,7 @@
 	&_themes,
 	&_sign-in,
 	&_pop-out {
-		background-color: var(--cmdr-color-primary-600);
+		background-color: var(--cmdr-color-blue-600);
 	}
 	&_header {
 		padding-bottom: 0.5rem;
@@ -227,7 +244,7 @@ h1 {
 		grid-template-rows: repeat(10, 1fr);
 	}
 	&__left-container {
-		background-color: var(--cmdr-color-primary-500);
+		background-color: var(--cmdr-color-blue-500);
 		padding: 2rem;
 		font-weight: 500;
 		letter-spacing: 1px;
@@ -256,7 +273,7 @@ h1 {
 .mini-tiles {
 	&__heading {
 		font-size: 2rem;
-		color: var(--cmdr-color-primary-600);
+		color: var(--cmdr-color-blue-600);
 		font-weight: 600;
 		border-left: 0.5rem var(--cmdr-color-brand-2) solid;
 		padding-left: 0.75rem;
@@ -352,11 +369,11 @@ h1 {
 	}
 	&__subheading {
 		font-weight: 500;
-		color: var(--cmdr-color-primary-600);
+		color: var(--cmdr-color-blue-600);
 		letter-spacing: 1px;
 	}
 	&__text {
-		color: var(--cmdr-color-primary-600);
+		color: var(--cmdr-color-blue-600);
 		font-weight: 600;
 	}
 }
@@ -364,11 +381,11 @@ h1 {
 .rich-text2 {
 	&__subheading {
 		font-weight: 500;
-		color: var(--cmdr-color-primary-600);
+		color: var(--cmdr-color-blue-600);
 		letter-spacing: 1px;
 	}
 	&__text {
-		color: var(--cmdr-color-primary-600);
+		color: var(--cmdr-color-blue-600);
 		font-weight: 600;
 	}
 }
