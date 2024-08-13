@@ -57,17 +57,17 @@
 	--cmdr-color-white: #ffffff;
 	--cmdr-color-dark: #0c0d0e;
 	--cmdr-bg-color-white: var(--cmdr-color-white);
-	--cmdr-color-brand-1: var(--cmdr-color-primary-blue-100);
+	--cmdr-color-brand-primary: var(--cmdr-color-primary-blue-100);
 	--cmdr-color-brand-2: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-2);
-	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-1);
+	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-primary);
 	--cmdr-icon-white-opacity: 1;
 	--cmdr-color-heading-default: var(--cmdr-color-primary-blue-600);
 	--cmdr-color-heading-inverse: var(--cmdr-color-white);
 	--cmdr-color-text-default: var(--cmdr-color-dark);
 	--cmdr-color-text-inverse: var(--cmdr-color-white);
-	--cmdr-color-text-brand-1: var(--cmdr-color-brand-1);
-	--cmdr-color-link-default: var(--cmdr-color-brand-1);
+	--cmdr-color-text-brand-primary: var(--cmdr-color-brand-primary);
+	--cmdr-color-link-default: var(--cmdr-color-brand-primary);
 
 	// Dark Theme
 	.theme_dark {
@@ -90,7 +90,7 @@
 		--cmdr-color-text-default: var(--cmdr-color-neutral-400);
 		--cmdr-color-text-inverse: var(--cmdr-color-neutral-400);
 		--cmdr-color-link-default: var(--cmdr-color-neutral-100);
-		--cmdr-color-text-brand-1: var(--cmdr-color-neutral-400);
+		--cmdr-color-text-brand-primary: var(--cmdr-color-neutral-400);
 	}
 }
 
@@ -371,8 +371,8 @@ h1 {
 		border: 1px solid black;
 		min-height: 12.375rem;
 		border-radius: 15px;
-		border-color: var(--cmdr-color-brand-1);
-		color: var(--cmdr-color-text-brand-1);
+		border-color: var(--cmdr-color-brand-primary);
+		color: var(--cmdr-color-text-brand-primary);
 		background-color: var(--cmdr-bg-color-light-blue-100);
 		display: flex;
 		justify-content: center;
@@ -506,6 +506,6 @@ h1 {
 	}
 	&__icon {
 		max-width: 100px;
-		fill: var(--cmdr-color-brand-1);
+		fill: var(--cmdr-color-brand-primary);
 	}
 }
