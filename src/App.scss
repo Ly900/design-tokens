@@ -1,24 +1,24 @@
 :root {
 	// Light Theme
 	// Primitive Tokens
-	--cmdr-color-primary-blue-100: #0667ba;
-	--cmdr-color-primary-blue-200: #0662b2;
-	--cmdr-color-primary-blue-300: #05579e;
-	--cmdr-color-primary-blue-400: #044c8b;
-	--cmdr-color-primary-blue-500: #144881;
-	--cmdr-color-primary-blue-600: #0f3d70;
-	--cmdr-color-primary-blue-700: #022b4f;
-	--cmdr-color-primary-blue-800: #02213b;
-	--cmdr-color-primary-blue-900: #011628;
-	--cmdr-bg-primary-blue-100: var(--cmdr-color-primary-blue-100);
-	--cmdr-bg-primary-blue-200: var(--cmdr-color-primary-blue-200);
-	--cmdr-bg-primary-blue-300: var(--cmdr-color-primary-blue-300);
-	--cmdr-bg-primary-blue-400: var(--cmdr-color-primary-blue-400);
-	--cmdr-bg-primary-blue-500: var(--cmdr-color-primary-blue-500);
-	--cmdr-bg-primary-blue-600: var(--cmdr-color-primary-blue-600);
-	--cmdr-bg-primary-blue-700: var(--cmdr-color-primary-blue-700);
-	--cmdr-bg-primary-blue-800: var(--cmdr-color-primary-blue-800);
-	--cmdr-bg-primary-blue-900: var(--cmdr-color-primary-blue-900);
+	--cmdr-color-blue-100: #0667ba;
+	--cmdr-color-blue-200: #0662b2;
+	--cmdr-color-blue-300: #05579e;
+	--cmdr-color-blue-400: #044c8b;
+	--cmdr-color-blue-500: #144881;
+	--cmdr-color-blue-600: #0f3d70;
+	--cmdr-color-blue-700: #022b4f;
+	--cmdr-color-blue-800: #02213b;
+	--cmdr-color-blue-900: #011628;
+	--cmdr-bg-blue-100: var(--cmdr-color-blue-100);
+	--cmdr-bg-blue-200: var(--cmdr-color-blue-200);
+	--cmdr-bg-blue-300: var(--cmdr-color-blue-300);
+	--cmdr-bg-blue-400: var(--cmdr-color-blue-400);
+	--cmdr-bg-blue-500: var(--cmdr-color-blue-500);
+	--cmdr-bg-blue-600: var(--cmdr-color-blue-600);
+	--cmdr-bg-blue-700: var(--cmdr-color-blue-700);
+	--cmdr-bg-blue-800: var(--cmdr-color-blue-800);
+	--cmdr-bg-blue-900: var(--cmdr-color-blue-900);
 	--cmdr-color-orange-100: #f5a966;
 	--cmdr-color-orange-200: #f49e52;
 	--cmdr-color-orange-300: #f3933f;
@@ -58,12 +58,12 @@
 	--cmdr-color-white: #ffffff;
 	--cmdr-color-dark: #0c0d0e;
 	--cmdr-bg-white: var(--cmdr-color-white);
-	--cmdr-color-brand-primary: var(--cmdr-color-primary-blue-100);
+	--cmdr-color-brand-primary: var(--cmdr-color-blue-100);
 	--cmdr-color-brand-secondary: var(--cmdr-color-orange-500);
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-secondary);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-primary);
 	--cmdr-icon-white-opacity: 1;
-	--cmdr-color-heading-default: var(--cmdr-color-primary-blue-600);
+	--cmdr-color-heading-default: var(--cmdr-color-blue-600);
 	--cmdr-color-heading-inverse: var(--cmdr-color-white);
 	--cmdr-color-text-default: var(--cmdr-color-dark);
 	--cmdr-color-text-inverse: var(--cmdr-color-white);
@@ -72,20 +72,20 @@
 
 	// Dark Theme
 	.theme_dark {
-		--cmdr-bg-primary-blue-100: var(--cmdr-color-primary-blue-700);
-		--cmdr-bg-primary-blue-200: var(--cmdr-color-primary-blue-700);
-		--cmdr-bg-primary-blue-300: var(--cmdr-color-primary-blue-700);
-		--cmdr-bg-primary-blue-400: var(--cmdr-color-primary-blue-700);
-		--cmdr-bg-primary-blue-500: var(--cmdr-color-primary-blue-800);
-		--cmdr-bg-primary-blue-600: var(--cmdr-color-primary-blue-800);
-		--cmdr-bg-primary-blue-700: var(--cmdr-color-primary-blue-900);
-		--cmdr-bg-primary-blue-800: var(--cmdr-color-primary-blue-900);
-		--cmdr-bg-primary-blue-900: var(--cmdr-color-primary-blue-900);
-		--cmdr-bg-light-blue-100: var(--cmdr-color-primary-blue-600);
-		--cmdr-bg-white: var(--cmdr-color-primary-blue-500);
+		--cmdr-bg-blue-100: var(--cmdr-color-blue-700);
+		--cmdr-bg-blue-200: var(--cmdr-color-blue-700);
+		--cmdr-bg-blue-300: var(--cmdr-color-blue-700);
+		--cmdr-bg-blue-400: var(--cmdr-color-blue-700);
+		--cmdr-bg-blue-500: var(--cmdr-color-blue-800);
+		--cmdr-bg-blue-600: var(--cmdr-color-blue-800);
+		--cmdr-bg-blue-700: var(--cmdr-color-blue-900);
+		--cmdr-bg-blue-800: var(--cmdr-color-blue-900);
+		--cmdr-bg-blue-900: var(--cmdr-color-blue-900);
+		--cmdr-bg-light-blue-100: var(--cmdr-color-blue-600);
+		--cmdr-bg-white: var(--cmdr-color-blue-500);
 		--cmdr-icon-white-opacity: 0.8;
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
-		--cmdr-button-secondary-bg-color: var(--cmdr-color-primary-blue-200);
+		--cmdr-button-secondary-bg-color: var(--cmdr-color-blue-200);
 		--cmdr-color-heading-default: var(--cmdr-color-neutral-400);
 		--cmdr-color-heading-inverse: var(--cmdr-color-neutral-400);
 		--cmdr-color-text-default: var(--cmdr-color-neutral-400);
@@ -173,7 +173,7 @@ p {
 	&_themes,
 	&_sign-in,
 	&_pop-out {
-		background-color: var(--cmdr-bg-primary-blue-100);
+		background-color: var(--cmdr-bg-blue-100);
 	}
 	&_header {
 		padding-bottom: 0.5rem;
@@ -185,7 +185,7 @@ p {
 		}
 	}
 	&_mini-tiles2 {
-		background-color: var(--cmdr-bg-primary-blue-600);
+		background-color: var(--cmdr-bg-blue-600);
 	}
 	&_pop-out {
 		@media (min-width: 780px) {
@@ -318,7 +318,7 @@ h1 {
 		grid-template-rows: repeat(10, 1fr);
 	}
 	&__left-container {
-		background-color: var(--cmdr-bg-primary-blue-500);
+		background-color: var(--cmdr-bg-blue-500);
 		padding: 2rem;
 		font-weight: 500;
 		letter-spacing: 1px;
@@ -387,7 +387,7 @@ h1 {
 		font-weight: 500;
 	}
 	&__list-item {
-		background-color: var(--cmdr-color-primary-blue-700);
+		background-color: var(--cmdr-color-blue-700);
 		border: none;
 		color: var(--cmdr-color-white);
 	}
