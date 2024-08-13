@@ -45,15 +45,15 @@
 	--cmdr-bg-color-light-blue-700: #74bcfb;
 	--cmdr-bg-color-light-blue-800: #61b3fa;
 	--cmdr-bg-color-light-blue-900: #4da9f9;
-	--cmdr-color-light-gray-100: #f5f5f5;
-	--cmdr-color-light-gray-200: #ebeaeb;
-	--cmdr-color-light-gray-300: #e1e0e1;
-	--cmdr-color-light-gray-400: #d4d3d4;
-	--cmdr-color-light-gray-500: #cdcbcd;
-	--cmdr-color-light-gray-600: #b8b7b8;
-	--cmdr-color-light-gray-700: #aeadae;
-	--cmdr-color-light-gray-800: #a4a2a4;
-	--cmdr-color-light-gray-900: #9a989a;
+	--cmdr-color-neutral-100: #f5f5f5;
+	--cmdr-color-neutral-200: #ebeaeb;
+	--cmdr-color-neutral-300: #e1e0e1;
+	--cmdr-color-neutral-400: #d4d3d4;
+	--cmdr-color-neutral-500: #cdcbcd;
+	--cmdr-color-neutral-600: #b8b7b8;
+	--cmdr-color-neutral-700: #aeadae;
+	--cmdr-color-neutral-800: #a4a2a4;
+	--cmdr-color-neutral-900: #9a989a;
 	--cmdr-color-white: #ffffff;
 	--cmdr-color-dark: #0c0d0e;
 	--cmdr-bg-color-white: var(--cmdr-color-white);
@@ -85,12 +85,12 @@
 		--cmdr-icon-white-opacity: 0.8;
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
 		--cmdr-button-secondary-bg-color: var(--cmdr-color-primary-blue-200);
-		--cmdr-color-heading-default: var(--cmdr-color-light-gray-400);
-		--cmdr-color-heading-inverse: var(--cmdr-color-light-gray-400);
-		--cmdr-color-text-default: var(--cmdr-color-light-gray-400);
-		--cmdr-color-text-inverse: var(--cmdr-color-light-gray-400);
-		--cmdr-color-link-default: var(--cmdr-color-light-gray-100);
-		--cmdr-color-text-brand-1: var(--cmdr-color-light-gray-400);
+		--cmdr-color-heading-default: var(--cmdr-color-neutral-400);
+		--cmdr-color-heading-inverse: var(--cmdr-color-neutral-400);
+		--cmdr-color-text-default: var(--cmdr-color-neutral-400);
+		--cmdr-color-text-inverse: var(--cmdr-color-neutral-400);
+		--cmdr-color-link-default: var(--cmdr-color-neutral-100);
+		--cmdr-color-text-brand-1: var(--cmdr-color-neutral-400);
 	}
 }
 
