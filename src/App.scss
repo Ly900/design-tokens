@@ -1,6 +1,6 @@
 :root {
 	// Light Theme
-	// Primitive Tokens
+	// Primitive Tokens - The WHAT - What is used?
 	--cmdr-color-blue-100: #0667ba;
 	--cmdr-color-blue-200: #0662b2;
 	--cmdr-color-blue-300: #05579e;
@@ -10,15 +10,6 @@
 	--cmdr-color-blue-700: #022b4f;
 	--cmdr-color-blue-800: #02213b;
 	--cmdr-color-blue-900: #011628;
-	--cmdr-bg-blue-100: var(--cmdr-color-blue-100);
-	--cmdr-bg-blue-200: var(--cmdr-color-blue-200);
-	--cmdr-bg-blue-300: var(--cmdr-color-blue-300);
-	--cmdr-bg-blue-400: var(--cmdr-color-blue-400);
-	--cmdr-bg-blue-500: var(--cmdr-color-blue-500);
-	--cmdr-bg-blue-600: var(--cmdr-color-blue-600);
-	--cmdr-bg-blue-700: var(--cmdr-color-blue-700);
-	--cmdr-bg-blue-800: var(--cmdr-color-blue-800);
-	--cmdr-bg-blue-900: var(--cmdr-color-blue-900);
 	--cmdr-color-orange-100: #f5a966;
 	--cmdr-color-orange-200: #f49e52;
 	--cmdr-color-orange-300: #f3933f;
@@ -37,15 +28,6 @@
 	--cmdr-color-light-blue-700: #74bcfb;
 	--cmdr-color-light-blue-800: #61b3fa;
 	--cmdr-color-light-blue-900: #4da9f9;
-	--cmdr-bg-light-blue-100: #f0f7fe;
-	--cmdr-bg-light-blue-200: #d7ecfe;
-	--cmdr-bg-light-blue-300: #c4e2fd;
-	--cmdr-bg-light-blue-400: #b0d9fd;
-	--cmdr-bg-light-blue-500: #9ccffc;
-	--cmdr-bg-light-blue-600: #88c6fb;
-	--cmdr-bg-light-blue-700: #74bcfb;
-	--cmdr-bg-light-blue-800: #61b3fa;
-	--cmdr-bg-light-blue-900: #4da9f9;
 	--cmdr-color-neutral-100: #f5f5f5;
 	--cmdr-color-neutral-200: #ebeaeb;
 	--cmdr-color-neutral-300: #e1e0e1;
@@ -57,13 +39,29 @@
 	--cmdr-color-neutral-900: #9a989a;
 	--cmdr-color-white: #ffffff;
 	--cmdr-color-dark: #0c0d0e;
-	--cmdr-bg-white: var(--cmdr-color-white);
 
-	// Semantic Tokens
+	// Semantic Tokens - The WHERE and HOW - Where and how are the values used?
 	--cmdr-color-brand-primary: var(--cmdr-color-blue-100);
 	--cmdr-color-brand-secondary: var(--cmdr-color-orange-500);
-	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-secondary);
-	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-primary);
+	--cmdr-bg-blue-100: var(--cmdr-color-blue-100);
+	--cmdr-bg-blue-200: var(--cmdr-color-blue-200);
+	--cmdr-bg-blue-300: var(--cmdr-color-blue-300);
+	--cmdr-bg-blue-400: var(--cmdr-color-blue-400);
+	--cmdr-bg-blue-500: var(--cmdr-color-blue-500);
+	--cmdr-bg-blue-600: var(--cmdr-color-blue-600);
+	--cmdr-bg-blue-700: var(--cmdr-color-blue-700);
+	--cmdr-bg-blue-800: var(--cmdr-color-blue-800);
+	--cmdr-bg-blue-900: var(--cmdr-color-blue-900);
+	--cmdr-bg-light-blue-100: #f0f7fe;
+	--cmdr-bg-light-blue-200: #d7ecfe;
+	--cmdr-bg-light-blue-300: #c4e2fd;
+	--cmdr-bg-light-blue-400: #b0d9fd;
+	--cmdr-bg-light-blue-500: #9ccffc;
+	--cmdr-bg-light-blue-600: #88c6fb;
+	--cmdr-bg-light-blue-700: #74bcfb;
+	--cmdr-bg-light-blue-800: #61b3fa;
+	--cmdr-bg-light-blue-900: #4da9f9;
+	--cmdr-bg-white: var(--cmdr-color-white);
 	--cmdr-icon-white-opacity: 1;
 	--cmdr-color-heading-default: var(--cmdr-color-blue-600);
 	--cmdr-color-heading-inverse: var(--cmdr-color-white);
@@ -71,6 +69,10 @@
 	--cmdr-color-text-inverse: var(--cmdr-color-white);
 	--cmdr-color-text-brand-primary: var(--cmdr-color-brand-primary);
 	--cmdr-color-link-default: var(--cmdr-color-brand-primary);
+
+	// Component Design Tokens
+	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-secondary);
+	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-primary);
 
 	// Dark Theme
 	.theme_dark {
