@@ -65,7 +65,7 @@
 	--cmdr-icon-white-opacity: 1;
 	--cmdr-heading-default-color: var(--cmdr-color-blue-600);
 	--cmdr-color-heading-inverse: var(--cmdr-color-white);
-	--cmdr-color-text-default: var(--cmdr-color-dark);
+	--cmdr-text-default-color: var(--cmdr-color-dark);
 	--cmdr-color-text-inverse: var(--cmdr-color-white);
 	--cmdr-color-text-brand-primary: var(--cmdr-color-brand-primary);
 	--cmdr-color-link-default: var(--cmdr-color-brand-primary);
@@ -92,7 +92,7 @@
 		--cmdr-button-secondary-bg-color: var(--cmdr-color-blue-200);
 		--cmdr-heading-default-color: var(--cmdr-color-neutral-400);
 		--cmdr-color-heading-inverse: var(--cmdr-color-neutral-400);
-		--cmdr-color-text-default: var(--cmdr-color-neutral-400);
+		--cmdr-text-default-color: var(--cmdr-color-neutral-400);
 		--cmdr-color-text-inverse: var(--cmdr-color-neutral-400);
 		--cmdr-color-link-default: var(--cmdr-color-neutral-100);
 		--cmdr-color-text-brand-primary: var(--cmdr-color-neutral-400);
@@ -162,7 +162,7 @@
 }
 
 p {
-	color: var(--cmdr-color-text-default);
+	color: var(--cmdr-text-default-color);
 }
 
 // Component wrapper containers
