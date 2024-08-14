@@ -63,7 +63,7 @@
 	--cmdr-bg-light-blue-900: #4da9f9;
 	--cmdr-bg-white: var(--cmdr-color-white);
 	--cmdr-icon-white-opacity: 1;
-	--cmdr-color-heading-default: var(--cmdr-color-blue-600);
+	--cmdr-heading-default-color: var(--cmdr-color-blue-600);
 	--cmdr-color-heading-inverse: var(--cmdr-color-white);
 	--cmdr-color-text-default: var(--cmdr-color-dark);
 	--cmdr-color-text-inverse: var(--cmdr-color-white);
@@ -90,7 +90,7 @@
 		--cmdr-icon-white-opacity: 0.8;
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
 		--cmdr-button-secondary-bg-color: var(--cmdr-color-blue-200);
-		--cmdr-color-heading-default: var(--cmdr-color-neutral-400);
+		--cmdr-heading-default-color: var(--cmdr-color-neutral-400);
 		--cmdr-color-heading-inverse: var(--cmdr-color-neutral-400);
 		--cmdr-color-text-default: var(--cmdr-color-neutral-400);
 		--cmdr-color-text-inverse: var(--cmdr-color-neutral-400);
@@ -354,7 +354,7 @@ h1 {
 .mini-tiles {
 	&__heading {
 		font-size: 2rem;
-		color: var(--cmdr-color-heading-default);
+		color: var(--cmdr-heading-default-color);
 		font-weight: 600;
 		border-left: 0.5rem var(--cmdr-color-brand-secondary) solid;
 		padding-left: 0.75rem;
@@ -451,7 +451,7 @@ h1 {
 	&__subheading {
 		font-size: 2rem;
 		font-weight: 600;
-		color: var(--cmdr-color-heading-default);
+		color: var(--cmdr-heading-default-color);
 	}
 }
 
@@ -463,11 +463,11 @@ h1 {
 	}
 	&__subheading {
 		font-weight: 500;
-		color: var(--cmdr-color-heading-default);
+		color: var(--cmdr-heading-default-color);
 		letter-spacing: 1px;
 	}
 	&__text {
-		color: var(--cmdr-color-heading-default);
+		color: var(--cmdr-heading-default-color);
 		font-weight: 600;
 	}
 }
@@ -475,11 +475,11 @@ h1 {
 .rich-text2 {
 	&__subheading {
 		font-weight: 500;
-		color: var(--cmdr-color-heading-default);
+		color: var(--cmdr-heading-default-color);
 		letter-spacing: 1px;
 	}
 	&__text {
-		color: var(--cmdr-color-heading-default);
+		color: var(--cmdr-heading-default-color);
 		font-weight: 600;
 	}
 }
