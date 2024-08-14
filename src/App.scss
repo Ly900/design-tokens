@@ -116,22 +116,21 @@
 		--cmdr-bg-blue-200: var(--cmdr-color-pink-700);
 		--cmdr-bg-blue-300: var(--cmdr-color-pink-700);
 		--cmdr-bg-blue-400: var(--cmdr-color-pink-700);
-		--cmdr-bg-blue-500: var(--cmdr-color-pink-800);
+		--cmdr-bg-blue-500: var(--cmdr-color-pink-900);
 		--cmdr-bg-blue-600: var(--cmdr-color-pink-800);
 		--cmdr-bg-blue-700: var(--cmdr-color-pink-900);
 		--cmdr-bg-blue-800: var(--cmdr-color-pink-900);
 		--cmdr-bg-blue-900: var(--cmdr-color-pink-900);
 		--cmdr-bg-light-blue-100: var(--cmdr-color-pink-600);
 		--cmdr-bg-white: var(--cmdr-color-pink-500);
-		--cmdr-icon-white-opacity: 0.8;
-		--cmdr-button-primary-bg-color: var(--cmdr-color-pink-800);
+		--cmdr-button-primary-bg-color: var(--cmdr-color-pink-400);
 		--cmdr-button-secondary-bg-color: var(--cmdr-color-pink-200);
-		--cmdr-heading-default-color: var(--cmdr-color-neutral-400);
-		--cmdr-heading-inverse-color: var(--cmdr-color-neutral-400);
-		--cmdr-text-default-color: var(--cmdr-color-neutral-400);
-		--cmdr-text-inverse-color: var(--cmdr-color-neutral-400);
+		--cmdr-heading-default-color: var(--cmdr-color-white);
+		--cmdr-text-default-color: var(--cmdr-color-white);
+		--cmdr-text-inverse-color: var(--cmdr-color-white);
 		--cmdr-link-default-color: var(--cmdr-color-neutral-100);
-		--cmdr-text-brand-primary-color: var(--cmdr-color-neutral-400);
+		--cmdr-text-brand-primary-color: var(--cmdr-color-white);
+		--cmdr-color-brand-secondary: var(--cmdr-color-pink-100);
 	}
 }
 
