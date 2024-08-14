@@ -62,7 +62,6 @@
 	--cmdr-bg-light-blue-800: #61b3fa;
 	--cmdr-bg-light-blue-900: #4da9f9;
 	--cmdr-bg-white: var(--cmdr-color-white);
-	--cmdr-icon-white-opacity: 1;
 	--cmdr-heading-default-color: var(--cmdr-color-blue-600);
 	--cmdr-heading-inverse-color: var(--cmdr-color-white);
 	--cmdr-text-default-color: var(--cmdr-color-dark);
@@ -73,6 +72,7 @@
 	// Component Design Tokens
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-secondary);
 	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-primary);
+	--cmdr-icon-white-opacity: 1;
 
 	// Dark Theme
 	.theme_dark {
