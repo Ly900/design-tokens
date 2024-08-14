@@ -7,7 +7,14 @@ function App() {
 
 	function handleThemeClick(mode) {
 		if (mode === 'dark') {
+			// if (bodyEl.classList.contains('theme_dark')) {
+			// 	bodyEl.classList.remove('theme_dark');
+			// } else {
+
+			// }
 			bodyEl.classList.toggle('theme_dark');
+		} else {
+			bodyEl.classList.toggle('theme_pink');
 		}
 	}
 
@@ -37,8 +44,11 @@ function App() {
 								</button>
 							</li>
 							<li>
-								<button className="btn-default m-0" disabled>
-									Pinks
+								<button
+									className="btn-default m-0"
+									onClick={() => handleThemeClick('pink')}
+								>
+									Pink Mode
 								</button>
 							</li>
 						</ul>
