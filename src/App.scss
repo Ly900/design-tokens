@@ -66,9 +66,9 @@
 	--cmdr-heading-default-color: var(--cmdr-color-blue-600);
 	--cmdr-heading-inverse-color: var(--cmdr-color-white);
 	--cmdr-text-default-color: var(--cmdr-color-dark);
-	--cmdr-color-text-inverse: var(--cmdr-color-white);
-	--cmdr-color-text-brand-primary: var(--cmdr-color-brand-primary);
-	--cmdr-color-link-default: var(--cmdr-color-brand-primary);
+	--cmdr-text-inverse-color: var(--cmdr-color-white);
+	--cmdr-text-brand-primary-color: var(--cmdr-color-brand-primary);
+	--cmdr-link-default-color: var(--cmdr-color-brand-primary);
 
 	// Component Design Tokens
 	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-secondary);
@@ -93,9 +93,9 @@
 		--cmdr-heading-default-color: var(--cmdr-color-neutral-400);
 		--cmdr-heading-inverse-color: var(--cmdr-color-neutral-400);
 		--cmdr-text-default-color: var(--cmdr-color-neutral-400);
-		--cmdr-color-text-inverse: var(--cmdr-color-neutral-400);
-		--cmdr-color-link-default: var(--cmdr-color-neutral-100);
-		--cmdr-color-text-brand-primary: var(--cmdr-color-neutral-400);
+		--cmdr-text-inverse-color: var(--cmdr-color-neutral-400);
+		--cmdr-link-default-color: var(--cmdr-color-neutral-100);
+		--cmdr-text-brand-primary-color: var(--cmdr-color-neutral-400);
 	}
 }
 
@@ -140,7 +140,7 @@
 
 @mixin default-link {
 	border-bottom: 1px dotted;
-	color: var(--cmdr-color-link-default);
+	color: var(--cmdr-link-default-color);
 	text-decoration: none;
 }
 
@@ -307,7 +307,7 @@ h1 {
 // Links
 
 .link-default {
-	color: var(--cmdr-color-link-default);
+	color: var(--cmdr-link-default-color);
 	font-weight: 500;
 }
 
@@ -334,7 +334,7 @@ h1 {
 		}
 	}
 	&__text {
-		color: var(--cmdr-color-text-inverse);
+		color: var(--cmdr-text-inverse-color);
 	}
 	&__right-container {
 		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
@@ -377,7 +377,7 @@ h1 {
 		min-height: 12.375rem;
 		border-radius: 15px;
 		border-color: var(--cmdr-color-brand-primary);
-		color: var(--cmdr-color-text-brand-primary);
+		color: var(--cmdr-text-brand-primary-color);
 		background-color: var(--cmdr-bg-light-blue-100);
 		display: flex;
 		justify-content: center;
@@ -428,7 +428,7 @@ h1 {
 	&__text {
 		font-size: 3.5rem;
 		line-height: 1.14;
-		color: var(--cmdr-color-text-inverse);
+		color: var(--cmdr-text-inverse-color);
 	}
 }
 
