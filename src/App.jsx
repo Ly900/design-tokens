@@ -7,13 +7,10 @@ function App() {
 
 	function handleThemeClick(mode) {
 		if (mode === 'dark') {
-			// if (bodyEl.classList.contains('theme_dark')) {
-			// 	bodyEl.classList.remove('theme_dark');
-			// } else {
-
-			// }
+			bodyEl.classList.remove('theme_pink');
 			bodyEl.classList.toggle('theme_dark');
 		} else {
+			bodyEl.classList.remove('theme_dark');
 			bodyEl.classList.toggle('theme_pink');
 		}
 	}
