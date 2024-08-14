@@ -1,6 +1,6 @@
 :root {
-	// Light Theme
 	// Primitive Tokens - The WHAT - What is used?
+	// Light Theme
 	--cmdr-color-blue-100: #0667ba;
 	--cmdr-color-blue-200: #0662b2;
 	--cmdr-color-blue-300: #05579e;
@@ -40,7 +40,7 @@
 	--cmdr-color-white: #ffffff;
 	--cmdr-color-dark: #0c0d0e;
 
-	//
+	// Pink Theme
 	--cmdr-color-pink-100: #ff5cbb;
 	--cmdr-color-pink-200: #ff47b3;
 	--cmdr-color-pink-300: #ff33aa;
@@ -52,6 +52,7 @@
 	--cmdr-color-pink-900: #b8006b;
 
 	// Semantic Tokens - The WHERE and HOW - Where and how are the values used?
+	// Default Theme
 	--cmdr-color-brand-primary: var(--cmdr-color-blue-100);
 	--cmdr-color-brand-secondary: var(--cmdr-color-orange-500);
 	--cmdr-bg-blue-100: var(--cmdr-color-blue-100);
@@ -101,6 +102,30 @@
 		--cmdr-icon-white-opacity: 0.8;
 		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
 		--cmdr-button-secondary-bg-color: var(--cmdr-color-blue-200);
+		--cmdr-heading-default-color: var(--cmdr-color-neutral-400);
+		--cmdr-heading-inverse-color: var(--cmdr-color-neutral-400);
+		--cmdr-text-default-color: var(--cmdr-color-neutral-400);
+		--cmdr-text-inverse-color: var(--cmdr-color-neutral-400);
+		--cmdr-link-default-color: var(--cmdr-color-neutral-100);
+		--cmdr-text-brand-primary-color: var(--cmdr-color-neutral-400);
+	}
+
+	// Pink Theme
+	.theme_pink {
+		--cmdr-bg-blue-100: var(--cmdr-color-pink-700);
+		--cmdr-bg-blue-200: var(--cmdr-color-pink-700);
+		--cmdr-bg-blue-300: var(--cmdr-color-pink-700);
+		--cmdr-bg-blue-400: var(--cmdr-color-pink-700);
+		--cmdr-bg-blue-500: var(--cmdr-color-pink-800);
+		--cmdr-bg-blue-600: var(--cmdr-color-pink-800);
+		--cmdr-bg-blue-700: var(--cmdr-color-pink-900);
+		--cmdr-bg-blue-800: var(--cmdr-color-pink-900);
+		--cmdr-bg-blue-900: var(--cmdr-color-pink-900);
+		--cmdr-bg-light-blue-100: var(--cmdr-color-pink-600);
+		--cmdr-bg-white: var(--cmdr-color-pink-500);
+		--cmdr-icon-white-opacity: 0.8;
+		--cmdr-button-primary-bg-color: var(--cmdr-color-pink-800);
+		--cmdr-button-secondary-bg-color: var(--cmdr-color-pink-200);
 		--cmdr-heading-default-color: var(--cmdr-color-neutral-400);
 		--cmdr-heading-inverse-color: var(--cmdr-color-neutral-400);
 		--cmdr-text-default-color: var(--cmdr-color-neutral-400);
@@ -402,7 +427,7 @@ h1 {
 		font-weight: 500;
 	}
 	&__list-item {
-		background-color: var(--cmdr-color-blue-700);
+		background-color: var(--cmdr-bg-blue-700);
 		border: none;
 		color: var(--cmdr-color-white);
 	}
