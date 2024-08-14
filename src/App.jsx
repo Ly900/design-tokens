@@ -7,11 +7,11 @@ function App() {
 
 	function handleThemeClick(mode) {
 		if (mode === 'dark') {
-			bodyEl.classList.remove('theme_pink');
+			bodyEl.classList.remove('theme_barbie');
 			bodyEl.classList.toggle('theme_dark');
 		} else {
 			bodyEl.classList.remove('theme_dark');
-			bodyEl.classList.toggle('theme_pink');
+			bodyEl.classList.toggle('theme_barbie');
 		}
 	}
 
@@ -42,8 +42,8 @@ function App() {
 							</li>
 							<li>
 								<button
-									className="btn-default m-0"
-									onClick={() => handleThemeClick('pink')}
+									className="btn-default barbie m-0"
+									onClick={() => handleThemeClick('barbie')}
 								>
 									Barbie Mode
 								</button>
