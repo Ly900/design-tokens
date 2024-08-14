@@ -45,7 +45,7 @@ function App() {
 									className="btn-default m-0"
 									onClick={() => handleThemeClick('pink')}
 								>
-									Pink Mode
+									Barbie Mode
 								</button>
 							</li>
 						</ul>
