@@ -89,6 +89,7 @@
 		);
 		--lyds-color-text-body-default: var(--lyds-color-text-inverse-body-default);
 		--lyds-color-text-link-default: var(--lyds-color-text-inverse-link-default);
+		--lyds-color-background-dark-default: var(--lyds-color-base-blue-700);
 
 		--lyds-color-bg-blue-100: var(--lyds-color-base-blue-700);
 		--lyds-color-bg-blue-200: var(--lyds-color-base-blue-700);
@@ -224,7 +225,7 @@ p {
 		}
 	}
 	&_mini-tiles2 {
-		background-color: var(--lyds-color-bg-blue-600);
+		background-color: var(--lyds-color-background-dark-default);
 	}
 	&_pop-out {
 		@media (min-width: 780px) {
