@@ -45,13 +45,15 @@
 	// Default Theme (Light)
 	--lyds-color-text-heading-default: var(--lyds-color-base-blue-600);
 	--lyds-color-text-body-default: var(--lyds-color-base-neutral-700);
-	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
-	--lyds-color-text-inverse-body-default: var(--lyds-color-base-neutral-100);
 	--lyds-color-text-link-default: var(--lyds-color-base-blue-200);
-	--lyds-color-text-inverse-link-default: var(--lyds-color-base-neutral-100);
-
 	--lyds-color-brand-primary: var(--lyds-color-base-blue-200);
 	--lyds-color-brand-secondary: var(--lyds-color-base-orange-400);
+
+	// Inverse classes
+	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
+	--lyds-color-text-inverse-body-default: var(--lyds-color-base-neutral-100);
+	--lyds-color-text-inverse-link-default: var(--lyds-color-base-neutral-100);
+
 	--lyds-color-bg-blue-100: var(--lyds-color-base-blue-100);
 	--lyds-color-bg-blue-200: var(--lyds-color-base-blue-200);
 	--lyds-color-bg-blue-300: var(--lyds-color-base-blue-300);
