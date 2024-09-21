@@ -72,10 +72,7 @@
 	--lyds-color-background-secondary-600: var(--lyds-color-base-light-blue-600);
 	--lyds-color-background-secondary-700: var(--lyds-color-base-light-blue-700);
 
-	// Inverse classes
-	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
-	--lyds-color-text-inverse-body-default: var(--lyds-color-base-neutral-100);
-	--lyds-color-text-inverse-link-default: var(--lyds-color-base-neutral-100);
+	--lyds-color-border-default: var(--lyds-color-brand-primary);
 
 	// Component Design Tokens
 	--lyds-button-primary-bg-color: var(--lyds-color-brand-tertiary);
@@ -88,7 +85,7 @@
 			--lyds-color-text-heading-default-light
 		);
 		--lyds-color-text-body-default: var(--lyds-color-text-body-default-light);
-		--lyds-color-text-link-default: var(--lyds-color-text-inverse-link-default);
+		--lyds-color-text-link-default: var(--lyds-color-text-link-default-light);
 
 		--lyds-color-brand-primary: var(--lyds-color-brand-primary-darker);
 		--lyds-color-brand-tertiary: var(--lyds-color-brand-tertiary-darker);
@@ -102,6 +99,8 @@
 		--lyds-color-background-primary-600: var(--lyds-color-base-blue-700);
 		--lyds-color-background-primary-700: var(--lyds-color-base-black);
 		--lyds-color-background-secondary-100: var(--lyds-color-base-blue-600);
+
+		--lyds-color-border-default: var(--lyds-color-base-light-blue-400);
 
 		--lyds-icon-white-opacity: 0.8;
 		--lyds-button-secondary-bg-color: var(--lyds-color-base-blue-200);
@@ -122,6 +121,8 @@
 		--lyds-color-background-primary-600: var(--lyds-color-base-pink-400);
 		--lyds-color-background-primary-700: var(--lyds-color-base-pink-600);
 		--lyds-color-background-secondary-100: var(--lyds-color-base-pink-100);
+
+		--lyds-color-border-default: var(--lyds-color-base-pink-500);
 
 		--lyds-icon-white-opacity: 0.8;
 		--lyds-button-secondary-bg-color: var(--lyds-color-base-blue-200);
@@ -146,7 +147,7 @@
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px 0 #0000004d;
-	color: var(--lyds-color-text-inverse-body-default);
+	color: var(--lyds-color-text-body-default-light);
 	cursor: pointer;
 	display: inline-block;
 	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -409,7 +410,7 @@ h1 {
 		border: 1px solid black;
 		min-height: 12.375rem;
 		border-radius: 15px;
-		border-color: var(--lyds-color-brand-primary);
+		border-color: var(--lyds-color-border-default);
 		color: var(--lyds-color-text-link-default);
 		background-color: var(--lyds-color-bg-light-blue-100);
 		display: flex;
@@ -454,14 +455,14 @@ h1 {
 		border-radius: 15px;
 	}
 	&__subheading {
-		color: var(--lyds-color-text-inverse-heading-default);
+		color: var(--lyds-color-text-heading-default-light);
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
 	&__text {
 		font-size: 3.5rem;
 		line-height: 1.14;
-		color: var(--lyds-color-text-inverse-body-default);
+		color: var(--lyds-color-text-body-default-light);
 	}
 }
 
