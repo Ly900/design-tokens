@@ -1,131 +1,131 @@
 :root {
 	// Primitive Tokens - The WHAT - What is used?
 	// Light Theme
-	--cmdr-color-blue-100: #0a7cde;
-	--cmdr-color-blue-200: #0667ba;
-	--cmdr-color-blue-300: #0559a1;
-	--cmdr-color-blue-400: #055192;
-	--cmdr-color-blue-500: #144881;
-	--cmdr-color-blue-600: #0f3d70;
-	--cmdr-color-blue-700: #032955;
-	--cmdr-color-orange-100: #f5a966;
-	--cmdr-color-orange-200: #f49e52;
-	--cmdr-color-orange-300: #f3933f;
-	--cmdr-color-orange-400: #f2882c;
-	--cmdr-color-orange-500: #ed780f;
-	--cmdr-color-orange-600: #e6730f;
-	--cmdr-color-orange-700: #d36a0d;
-	--cmdr-color-orange-800: #c0600c;
-	--cmdr-color-orange-900: #ad560b;
-	--cmdr-color-light-blue-100: #f0f7fe;
-	--cmdr-color-light-blue-200: #d7ecfe;
-	--cmdr-color-light-blue-300: #c4e2fd;
-	--cmdr-color-light-blue-400: #b0d9fd;
-	--cmdr-color-light-blue-500: #9ccffc;
-	--cmdr-color-light-blue-600: #88c6fb;
-	--cmdr-color-light-blue-700: #74bcfb;
-	--cmdr-color-light-blue-800: #61b3fa;
-	--cmdr-color-light-blue-900: #4da9f9;
-	--cmdr-color-neutral-100: #f5f5f5;
-	--cmdr-color-neutral-200: #eaeaeb;
-	--cmdr-color-neutral-300: #e0e0e1;
-	--cmdr-color-neutral-400: #d3d3d4;
-	--cmdr-color-neutral-500: #cbcbcd;
-	--cmdr-color-neutral-600: #c1c1c2;
-	--cmdr-color-neutral-700: #b7b7b8;
-	--cmdr-color-neutral-800: #adadae;
-	--cmdr-color-neutral-900: #a2a2a4;
-	--cmdr-color-white: #ffffff;
-	--cmdr-color-dark: #0c0d0e;
+	--lyds-color-blue-100: #0a7cde;
+	--lyds-color-blue-200: #0667ba;
+	--lyds-color-blue-300: #0559a1;
+	--lyds-color-blue-400: #055192;
+	--lyds-color-blue-500: #144881;
+	--lyds-color-blue-600: #0f3d70;
+	--lyds-color-blue-700: #032955;
+	--lyds-color-orange-100: #f5a966;
+	--lyds-color-orange-200: #f49e52;
+	--lyds-color-orange-300: #f3933f;
+	--lyds-color-orange-400: #f2882c;
+	--lyds-color-orange-500: #ed780f;
+	--lyds-color-orange-600: #e6730f;
+	--lyds-color-orange-700: #d36a0d;
+	--lyds-color-orange-800: #c0600c;
+	--lyds-color-orange-900: #ad560b;
+	--lyds-color-light-blue-100: #f0f7fe;
+	--lyds-color-light-blue-200: #d7ecfe;
+	--lyds-color-light-blue-300: #c4e2fd;
+	--lyds-color-light-blue-400: #b0d9fd;
+	--lyds-color-light-blue-500: #9ccffc;
+	--lyds-color-light-blue-600: #88c6fb;
+	--lyds-color-light-blue-700: #74bcfb;
+	--lyds-color-light-blue-800: #61b3fa;
+	--lyds-color-light-blue-900: #4da9f9;
+	--lyds-color-neutral-100: #f5f5f5;
+	--lyds-color-neutral-200: #eaeaeb;
+	--lyds-color-neutral-300: #e0e0e1;
+	--lyds-color-neutral-400: #d3d3d4;
+	--lyds-color-neutral-500: #cbcbcd;
+	--lyds-color-neutral-600: #c1c1c2;
+	--lyds-color-neutral-700: #b7b7b8;
+	--lyds-color-neutral-800: #adadae;
+	--lyds-color-neutral-900: #a2a2a4;
+	--lyds-color-white: #ffffff;
+	--lyds-color-dark: #0c0d0e;
 
 	// Pink Theme
-	--cmdr-color-pink-100: #ff5cbb;
-	--cmdr-color-pink-200: #ff47b3;
-	--cmdr-color-pink-300: #ff33aa;
-	--cmdr-color-pink-400: #ff1fa2;
-	--cmdr-color-pink-500: #ff0099;
-	--cmdr-color-pink-600: #f5008f;
-	--cmdr-color-pink-700: #e00083;
-	--cmdr-color-pink-800: #cc0077;
-	--cmdr-color-pink-900: #b8006b;
+	--lyds-color-pink-100: #ff5cbb;
+	--lyds-color-pink-200: #ff47b3;
+	--lyds-color-pink-300: #ff33aa;
+	--lyds-color-pink-400: #ff1fa2;
+	--lyds-color-pink-500: #ff0099;
+	--lyds-color-pink-600: #f5008f;
+	--lyds-color-pink-700: #e00083;
+	--lyds-color-pink-800: #cc0077;
+	--lyds-color-pink-900: #b8006b;
 
 	// Semantic Tokens - The WHERE and HOW - Where and how are the values used?
 	// Default Theme
-	--cmdr-color-brand-primary: var(--cmdr-color-blue-200);
-	--cmdr-color-brand-secondary: var(--cmdr-color-orange-500);
-	--cmdr-bg-blue-100: var(--cmdr-color-blue-100);
-	--cmdr-bg-blue-200: var(--cmdr-color-blue-200);
-	--cmdr-bg-blue-300: var(--cmdr-color-blue-300);
-	--cmdr-bg-blue-400: var(--cmdr-color-blue-400);
-	--cmdr-bg-blue-500: var(--cmdr-color-blue-500);
-	--cmdr-bg-blue-600: var(--cmdr-color-blue-600);
-	--cmdr-bg-blue-700: var(--cmdr-color-blue-700);
-	--cmdr-bg-light-blue-100: #f0f7fe;
-	--cmdr-bg-light-blue-200: #d7ecfe;
-	--cmdr-bg-light-blue-300: #c4e2fd;
-	--cmdr-bg-light-blue-400: #b0d9fd;
-	--cmdr-bg-light-blue-500: #9ccffc;
-	--cmdr-bg-light-blue-600: #88c6fb;
-	--cmdr-bg-light-blue-700: #74bcfb;
-	--cmdr-bg-light-blue-800: #61b3fa;
-	--cmdr-bg-light-blue-900: #4da9f9;
-	--cmdr-bg-white: var(--cmdr-color-white);
-	--cmdr-heading-default-color: var(--cmdr-color-blue-600);
-	--cmdr-heading-inverse-color: var(--cmdr-color-white);
-	--cmdr-text-default-color: var(--cmdr-color-dark);
-	--cmdr-text-inverse-color: var(--cmdr-color-white);
-	--cmdr-text-brand-primary-color: var(--cmdr-color-brand-primary);
-	--cmdr-link-default-color: var(--cmdr-color-brand-primary);
+	--lyds-color-brand-primary: var(--lyds-color-blue-200);
+	--lyds-color-brand-secondary: var(--lyds-color-orange-500);
+	--lyds-bg-blue-100: var(--lyds-color-blue-100);
+	--lyds-bg-blue-200: var(--lyds-color-blue-200);
+	--lyds-bg-blue-300: var(--lyds-color-blue-300);
+	--lyds-bg-blue-400: var(--lyds-color-blue-400);
+	--lyds-bg-blue-500: var(--lyds-color-blue-500);
+	--lyds-bg-blue-600: var(--lyds-color-blue-600);
+	--lyds-bg-blue-700: var(--lyds-color-blue-700);
+	--lyds-bg-light-blue-100: #f0f7fe;
+	--lyds-bg-light-blue-200: #d7ecfe;
+	--lyds-bg-light-blue-300: #c4e2fd;
+	--lyds-bg-light-blue-400: #b0d9fd;
+	--lyds-bg-light-blue-500: #9ccffc;
+	--lyds-bg-light-blue-600: #88c6fb;
+	--lyds-bg-light-blue-700: #74bcfb;
+	--lyds-bg-light-blue-800: #61b3fa;
+	--lyds-bg-light-blue-900: #4da9f9;
+	--lyds-bg-white: var(--lyds-color-white);
+	--lyds-heading-default-color: var(--lyds-color-blue-600);
+	--lyds-heading-inverse-color: var(--lyds-color-white);
+	--lyds-text-default-color: var(--lyds-color-dark);
+	--lyds-text-inverse-color: var(--lyds-color-white);
+	--lyds-text-brand-primary-color: var(--lyds-color-brand-primary);
+	--lyds-link-default-color: var(--lyds-color-brand-primary);
 
 	// Component Design Tokens
-	--cmdr-button-primary-bg-color: var(--cmdr-color-brand-secondary);
-	--cmdr-button-secondary-bg-color: var(--cmdr-color-brand-primary);
-	--cmdr-icon-white-opacity: 1;
+	--lyds-button-primary-bg-color: var(--lyds-color-brand-secondary);
+	--lyds-button-secondary-bg-color: var(--lyds-color-brand-primary);
+	--lyds-icon-white-opacity: 1;
 
 	// Dark Theme
 	.theme_dark {
-		--cmdr-bg-blue-100: var(--cmdr-color-blue-700);
-		--cmdr-bg-blue-200: var(--cmdr-color-blue-700);
-		--cmdr-bg-blue-300: var(--cmdr-color-blue-700);
-		--cmdr-bg-blue-400: var(--cmdr-color-blue-700);
-		--cmdr-bg-blue-500: var(--cmdr-color-blue-700);
-		--cmdr-bg-blue-600: var(--cmdr-color-blue-700);
-		--cmdr-bg-blue-700: var(--cmdr-color-blue-700);
-		--cmdr-bg-light-blue-100: var(--cmdr-color-blue-600);
-		--cmdr-bg-white: var(--cmdr-color-blue-500);
-		--cmdr-icon-white-opacity: 0.8;
-		--cmdr-button-primary-bg-color: var(--cmdr-color-orange-800);
-		--cmdr-button-secondary-bg-color: var(--cmdr-color-blue-200);
-		--cmdr-heading-default-color: var(--cmdr-color-neutral-400);
-		--cmdr-heading-inverse-color: var(--cmdr-color-neutral-400);
-		--cmdr-text-default-color: var(--cmdr-color-neutral-400);
-		--cmdr-text-inverse-color: var(--cmdr-color-neutral-400);
-		--cmdr-link-default-color: var(--cmdr-color-neutral-100);
-		--cmdr-text-brand-primary-color: var(--cmdr-color-neutral-400);
+		--lyds-bg-blue-100: var(--lyds-color-blue-700);
+		--lyds-bg-blue-200: var(--lyds-color-blue-700);
+		--lyds-bg-blue-300: var(--lyds-color-blue-700);
+		--lyds-bg-blue-400: var(--lyds-color-blue-700);
+		--lyds-bg-blue-500: var(--lyds-color-blue-700);
+		--lyds-bg-blue-600: var(--lyds-color-blue-700);
+		--lyds-bg-blue-700: var(--lyds-color-blue-700);
+		--lyds-bg-light-blue-100: var(--lyds-color-blue-600);
+		--lyds-bg-white: var(--lyds-color-blue-500);
+		--lyds-icon-white-opacity: 0.8;
+		--lyds-button-primary-bg-color: var(--lyds-color-orange-800);
+		--lyds-button-secondary-bg-color: var(--lyds-color-blue-200);
+		--lyds-heading-default-color: var(--lyds-color-neutral-400);
+		--lyds-heading-inverse-color: var(--lyds-color-neutral-400);
+		--lyds-text-default-color: var(--lyds-color-neutral-400);
+		--lyds-text-inverse-color: var(--lyds-color-neutral-400);
+		--lyds-link-default-color: var(--lyds-color-neutral-100);
+		--lyds-text-brand-primary-color: var(--lyds-color-neutral-400);
 	}
 
 	// Pink Theme
 	.theme_barbie {
-		--cmdr-bg-blue-100: var(--cmdr-color-pink-700);
-		--cmdr-bg-blue-200: var(--cmdr-color-pink-700);
-		--cmdr-bg-blue-300: var(--cmdr-color-pink-700);
-		--cmdr-bg-blue-400: var(--cmdr-color-pink-700);
-		--cmdr-bg-blue-500: var(--cmdr-color-pink-900);
-		--cmdr-bg-blue-600: var(--cmdr-color-pink-800);
-		--cmdr-bg-blue-700: var(--cmdr-color-pink-900);
-		--cmdr-bg-blue-800: var(--cmdr-color-pink-900);
-		--cmdr-bg-blue-900: var(--cmdr-color-pink-900);
-		--cmdr-bg-light-blue-100: var(--cmdr-color-pink-600);
-		--cmdr-bg-white: var(--cmdr-color-pink-500);
-		--cmdr-button-primary-bg-color: var(--cmdr-color-pink-400);
-		--cmdr-button-secondary-bg-color: var(--cmdr-color-pink-200);
-		--cmdr-heading-default-color: var(--cmdr-color-white);
-		--cmdr-text-default-color: var(--cmdr-color-white);
-		--cmdr-text-inverse-color: var(--cmdr-color-white);
-		--cmdr-link-default-color: var(--cmdr-color-neutral-100);
-		--cmdr-text-brand-primary-color: var(--cmdr-color-white);
-		--cmdr-color-brand-secondary: var(--cmdr-color-pink-100);
-		--cmdr-color-brand-primary: var(--cmdr-color-pink-100);
+		--lyds-bg-blue-100: var(--lyds-color-pink-700);
+		--lyds-bg-blue-200: var(--lyds-color-pink-700);
+		--lyds-bg-blue-300: var(--lyds-color-pink-700);
+		--lyds-bg-blue-400: var(--lyds-color-pink-700);
+		--lyds-bg-blue-500: var(--lyds-color-pink-900);
+		--lyds-bg-blue-600: var(--lyds-color-pink-800);
+		--lyds-bg-blue-700: var(--lyds-color-pink-900);
+		--lyds-bg-blue-800: var(--lyds-color-pink-900);
+		--lyds-bg-blue-900: var(--lyds-color-pink-900);
+		--lyds-bg-light-blue-100: var(--lyds-color-pink-600);
+		--lyds-bg-white: var(--lyds-color-pink-500);
+		--lyds-button-primary-bg-color: var(--lyds-color-pink-400);
+		--lyds-button-secondary-bg-color: var(--lyds-color-pink-200);
+		--lyds-heading-default-color: var(--lyds-color-white);
+		--lyds-text-default-color: var(--lyds-color-white);
+		--lyds-text-inverse-color: var(--lyds-color-white);
+		--lyds-link-default-color: var(--lyds-color-neutral-100);
+		--lyds-text-brand-primary-color: var(--lyds-color-white);
+		--lyds-color-brand-secondary: var(--lyds-color-pink-100);
+		--lyds-color-brand-primary: var(--lyds-color-pink-100);
 	}
 }
 
@@ -143,11 +143,11 @@
 
 @mixin btn-default {
 	appearance: none;
-	background-color: var(--cmdr-button-primary-bg-color);
+	background-color: var(--lyds-button-primary-bg-color);
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px 0 #0000004d;
-	color: var(--cmdr-color-white);
+	color: var(--lyds-color-white);
 	cursor: pointer;
 	display: inline-block;
 	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -170,7 +170,7 @@
 
 @mixin default-link {
 	border-bottom: 1px dotted;
-	color: var(--cmdr-link-default-color);
+	color: var(--lyds-link-default-color);
 	text-decoration: none;
 }
 
@@ -184,7 +184,7 @@
 
 .btn-secondary {
 	@include btn-default();
-	background-color: var(--cmdr-button-secondary-bg-color);
+	background-color: var(--lyds-button-secondary-bg-color);
 }
 
 .default-link {
@@ -192,7 +192,7 @@
 }
 
 p {
-	color: var(--cmdr-text-default-color);
+	color: var(--lyds-text-default-color);
 }
 
 // Component wrapper containers
@@ -207,19 +207,19 @@ p {
 	&_themes,
 	&_sign-in,
 	&_pop-out {
-		background-color: var(--cmdr-bg-blue-600);
+		background-color: var(--lyds-bg-blue-600);
 	}
 	&_header {
 		padding-bottom: 0.5rem;
 	}
 	&_mini-tiles {
-		background-color: var(--cmdr-bg-light-blue-100);
+		background-color: var(--lyds-bg-light-blue-100);
 		@media (min-width: 780px) {
 			@include content-columns(6);
 		}
 	}
 	&_mini-tiles2 {
-		background-color: var(--cmdr-bg-blue-600);
+		background-color: var(--lyds-bg-blue-600);
 	}
 	&_pop-out {
 		@media (min-width: 780px) {
@@ -227,25 +227,25 @@ p {
 		}
 	}
 	&_rich-text {
-		background-color: var(--cmdr-bg-white);
+		background-color: var(--lyds-bg-white);
 		@media (min-width: 780px) {
 			@include content-columns(1);
 		}
 	}
 	&_rich-text2 {
-		background-color: var(--cmdr-bg-white);
+		background-color: var(--lyds-bg-white);
 		@media (min-width: 780px) {
 			@include content-columns(1);
 		}
 	}
 	&_rates {
-		background-color: var(--cmdr-bg-white);
+		background-color: var(--lyds-bg-white);
 		@media (min-width: 780px) {
 			@include content-columns(3);
 		}
 	}
 	&_icon-row {
-		background-color: var(--cmdr-bg-white);
+		background-color: var(--lyds-bg-white);
 		@media (min-width: 780px) {
 			@include content-columns(4);
 		}
@@ -257,7 +257,7 @@ p {
 			}
 		}
 		&_themes {
-			background-color: var(--cmdr-bg-light-blue-100);
+			background-color: var(--lyds-bg-light-blue-100);
 			border-radius: 15px;
 			@media (min-width: 780px) {
 				grid-column: 2 / 5;
@@ -296,7 +296,7 @@ p {
 			}
 		}
 		&_icon-row {
-			background-color: var(--cmdr-bg-white);
+			background-color: var(--lyds-bg-white);
 			@media (min-width: 780px) {
 				grid-column: 2/6;
 			}
@@ -313,7 +313,7 @@ p {
 
 .globe-icon {
 	max-width: 50px;
-	opacity: var(--cmdr-icon-white-opacity);
+	opacity: var(--lyds-icon-white-opacity);
 }
 
 .globe-svg {
@@ -323,7 +323,7 @@ p {
 h1 {
 	text-align: center;
 	letter-spacing: 1px;
-	color: var(--cmdr-heading-inverse-color);
+	color: var(--lyds-heading-inverse-color);
 }
 
 // Themes
@@ -337,7 +337,7 @@ h1 {
 // Links
 
 .link-default {
-	color: var(--cmdr-link-default-color);
+	color: var(--lyds-link-default-color);
 	font-weight: 500;
 }
 
@@ -352,7 +352,7 @@ h1 {
 		grid-template-rows: repeat(10, 1fr);
 	}
 	&__left-container {
-		background-color: var(--cmdr-bg-blue-500);
+		background-color: var(--lyds-bg-blue-500);
 		padding: 2rem;
 		font-weight: 500;
 		letter-spacing: 1px;
@@ -364,7 +364,7 @@ h1 {
 		}
 	}
 	&__text {
-		color: var(--cmdr-text-inverse-color);
+		color: var(--lyds-text-inverse-color);
 	}
 	&__right-container {
 		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
@@ -384,9 +384,9 @@ h1 {
 .mini-tiles {
 	&__heading {
 		font-size: 2rem;
-		color: var(--cmdr-heading-default-color);
+		color: var(--lyds-heading-default-color);
 		font-weight: 600;
-		border-left: 0.5rem var(--cmdr-color-brand-secondary) solid;
+		border-left: 0.5rem var(--lyds-color-brand-secondary) solid;
 		padding-left: 0.75rem;
 	}
 	&__unordered-list {
@@ -406,9 +406,9 @@ h1 {
 		border: 1px solid black;
 		min-height: 12.375rem;
 		border-radius: 15px;
-		border-color: var(--cmdr-color-brand-primary);
-		color: var(--cmdr-text-brand-primary-color);
-		background-color: var(--cmdr-bg-light-blue-100);
+		border-color: var(--lyds-color-brand-primary);
+		color: var(--lyds-text-brand-primary-color);
+		background-color: var(--lyds-bg-light-blue-100);
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -417,13 +417,13 @@ h1 {
 
 .mini-tiles2 {
 	&__heading {
-		color: var(--cmdr-heading-inverse-color);
+		color: var(--lyds-heading-inverse-color);
 		font-weight: 500;
 	}
 	&__list-item {
-		background-color: var(--cmdr-bg-blue-700);
+		background-color: var(--lyds-bg-blue-700);
 		border: none;
-		color: var(--cmdr-color-white);
+		color: var(--lyds-color-white);
 	}
 }
 
@@ -451,14 +451,14 @@ h1 {
 		border-radius: 15px;
 	}
 	&__subheading {
-		color: var(--cmdr-heading-inverse-color);
+		color: var(--lyds-heading-inverse-color);
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
 	&__text {
 		font-size: 3.5rem;
 		line-height: 1.14;
-		color: var(--cmdr-text-inverse-color);
+		color: var(--lyds-text-inverse-color);
 	}
 }
 
@@ -481,7 +481,7 @@ h1 {
 	&__subheading {
 		font-size: 2rem;
 		font-weight: 600;
-		color: var(--cmdr-heading-default-color);
+		color: var(--lyds-heading-default-color);
 	}
 }
 
@@ -493,11 +493,11 @@ h1 {
 	}
 	&__subheading {
 		font-weight: 500;
-		color: var(--cmdr-heading-default-color);
+		color: var(--lyds-heading-default-color);
 		letter-spacing: 1px;
 	}
 	&__text {
-		color: var(--cmdr-heading-default-color);
+		color: var(--lyds-heading-default-color);
 		font-weight: 600;
 	}
 }
@@ -505,11 +505,11 @@ h1 {
 .rich-text2 {
 	&__subheading {
 		font-weight: 500;
-		color: var(--cmdr-heading-default-color);
+		color: var(--lyds-heading-default-color);
 		letter-spacing: 1px;
 	}
 	&__text {
-		color: var(--cmdr-heading-default-color);
+		color: var(--lyds-heading-default-color);
 		font-weight: 600;
 	}
 }
@@ -541,6 +541,6 @@ h1 {
 	}
 	&__icon {
 		max-width: 100px;
-		fill: var(--cmdr-color-brand-primary);
+		fill: var(--lyds-color-brand-primary);
 	}
 }
