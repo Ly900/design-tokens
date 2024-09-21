@@ -81,6 +81,9 @@
 
 	// Dark Theme
 	.theme_dark {
+		--lyds-color-text-heading-default-light: var(--lyds-color-base-neutral-300);
+		--lyds-color-text-body-default-light: var(--lyds-color-base-neutral-300);
+		--lyds-color-text-link-default-light: var(--lyds-color-base-neutral-300);
 		--lyds-color-text-heading-default: var(
 			--lyds-color-text-heading-default-light
 		);
@@ -101,7 +104,7 @@
 
 		--lyds-color-border-default: var(--lyds-color-base-light-blue-400);
 
-		--lyds-icon-white-opacity: 0.8;
+		--lyds-icon-white-opacity: 0.6;
 	}
 
 	// Pink Theme
