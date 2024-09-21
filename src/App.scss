@@ -48,6 +48,7 @@
 	--lyds-color-text-link-default: var(--lyds-color-base-blue-200);
 	--lyds-color-brand-primary: var(--lyds-color-base-blue-200);
 	--lyds-color-brand-secondary: var(--lyds-color-base-orange-400);
+	--lyds-color-background-default: var(--lyds-color-base-neutral-100);
 
 	// Inverse classes
 	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
@@ -185,6 +186,10 @@
 
 .default-link {
 	@include default-link;
+}
+
+body {
+	background-color: var(--lyds-color-background-default);
 }
 
 p {
