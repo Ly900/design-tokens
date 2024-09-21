@@ -49,8 +49,10 @@
 	--lyds-color-brand-primary: var(--lyds-color-base-blue-200);
 	--lyds-color-brand-secondary: var(--lyds-color-base-blue-600);
 	--lyds-color-brand-tertiary: var(--lyds-color-base-orange-400);
-	--lyds-color-background-default: var(--lyds-color-base-neutral-100);
-	--lyds-color-background-primary: var(--lyds-color-base-neutral-100);
+	--lyds-color-background-light-default: var(--lyds-color-base-neutral-100);
+	--lyds-color-background-light-primary: var(--lyds-color-blue-700);
+	--lyds-color-background-dark-default: var(--lyds-color-brand-secondary);
+	--lyds-color-background-dark-primary: var(--lyds-color-blue-500);
 
 	// Inverse classes
 	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
@@ -210,7 +212,7 @@ p {
 	&_themes,
 	&_sign-in,
 	&_pop-out {
-		background-color: var(--lyds-color-bg-blue-600);
+		background-color: var(--lyds-color-background-dark-default);
 	}
 	&_header {
 		padding-bottom: 0.5rem;
