@@ -31,6 +31,8 @@
 	--lyds-color-base-neutral-500: #68696a;
 	--lyds-color-base-neutral-600: #47484a;
 	--lyds-color-base-neutral-700: #0c0d0e;
+	--lyds-color-base-white: #ffffff;
+	--lyds-color-base-black: #000000;
 
 	// Pink Theme
 	--lyds-color-base-pink-100: #f9cfe1;
@@ -46,15 +48,26 @@
 	--lyds-color-text-heading-default: var(--lyds-color-base-blue-600);
 	--lyds-color-text-body-default: var(--lyds-color-base-neutral-700);
 	--lyds-color-text-link-default: var(--lyds-color-base-blue-200);
+
 	--lyds-color-brand-primary: var(--lyds-color-base-blue-200);
 	--lyds-color-brand-secondary: var(--lyds-color-base-blue-600);
 	--lyds-color-brand-tertiary: var(--lyds-color-base-orange-400);
-	--lyds-color-background-light-default: var(--lyds-color-base-neutral-100);
-	--lyds-color-background-light-secondary: var(
-		--lyds-color-base-light-blue-100
-	);
-	--lyds-color-background-dark-default: var(--lyds-color-brand-secondary);
-	--lyds-color-background-dark-secondary: var(--lyds-color-base-blue-500);
+
+	--lyds-color-background-default: var(--lyds-color-base-neutral-100);
+	--lyds-color-background-primary-100: var(--lyds-color-base-blue-100);
+	--lyds-color-background-primary-200: var(--lyds-color-base-blue-200);
+	--lyds-color-background-primary-300: var(--lyds-color-base-blue-300);
+	--lyds-color-background-primary-400: var(--lyds-color-base-blue-400);
+	--lyds-color-background-primary-500: var(--lyds-color-base-blue-500);
+	--lyds-color-background-primary-600: var(--lyds-color-base-blue-600);
+	--lyds-color-background-primary-700: var(--lyds-color-base-blue-700);
+	--lyds-color-background-secondary-100: var(--lyds-color-base-light-blue-100);
+	--lyds-color-background-secondary-200: var(--lyds-color-base-light-blue-200);
+	--lyds-color-background-secondary-300: var(--lyds-color-base-light-blue-300);
+	--lyds-color-background-secondary-400: var(--lyds-color-base-light-blue-400);
+	--lyds-color-background-secondary-500: var(--lyds-color-base-light-blue-500);
+	--lyds-color-background-secondary-600: var(--lyds-color-base-light-blue-600);
+	--lyds-color-background-secondary-700: var(--lyds-color-base-light-blue-700);
 
 	// Inverse classes
 	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
@@ -75,7 +88,6 @@
 	--lyds-color-bg-light-blue-500: var(--lyds-color-base-light-blue-500);
 	--lyds-color-bg-light-blue-600: var(--lyds-color-base-light-blue-600);
 	--lyds-color-bg-light-blue-700: var(--lyds-color-base-light-blue-200);
-	--lyds-color-bg-white: var(--lyds-color-base-neutral-100);
 
 	--lyds-color-text-brand-primary-color: var(--lyds-color-brand-primary);
 
@@ -91,8 +103,9 @@
 		);
 		--lyds-color-text-body-default: var(--lyds-color-text-inverse-body-default);
 		--lyds-color-text-link-default: var(--lyds-color-text-inverse-link-default);
-		--lyds-color-background-dark-default: var(--lyds-color-base-blue-700);
+		--lyds-color-background-primary-700: var(--lyds-color-base-black);
 		--lyds-color-background-light-secondary: var(--lyds-color-base-blue-400);
+		--lyds-color-background-light-default: var(--lyds-color-base-blue-600);
 
 		--lyds-color-bg-blue-100: var(--lyds-color-base-blue-700);
 		--lyds-color-bg-blue-200: var(--lyds-color-base-blue-700);
@@ -102,7 +115,7 @@
 		--lyds-color-bg-blue-600: var(--lyds-color-base-blue-700);
 		--lyds-color-bg-blue-700: var(--lyds-color-base-blue-700);
 		--lyds-color-bg-light-blue-100: var(--lyds-color-base-blue-600);
-		--lyds-color-bg-white: var(--lyds-color-base-blue-500);
+		--lyds-color-background-light-default: var(--lyds-color-base-blue-500);
 		--lyds-icon-white-opacity: 0.8;
 		--lyds-button-primary-bg-color: var(--lyds-color-base-orange-800);
 		--lyds-button-secondary-bg-color: var(--lyds-color-base-blue-200);
@@ -121,7 +134,7 @@
 		--lyds-color-bg-blue-800: var(--lyds-color-base-pink-700);
 		--lyds-color-bg-blue-900: var(--lyds-color-base-pink-700);
 		--lyds-color-bg-light-blue-100: var(--lyds-color-base-pink-600);
-		--lyds-color-bg-white: var(--lyds-color-base-pink-500);
+		--lyds-color-background-light-default: var(--lyds-color-base-pink-500);
 		--lyds-button-primary-bg-color: var(--lyds-color-base-pink-400);
 		--lyds-button-secondary-bg-color: var(--lyds-color-base-pink-200);
 		--lyds-color-text-heading-default: var(--lyds-color-base-neutral-100);
@@ -216,7 +229,7 @@ p {
 	&_themes,
 	&_sign-in,
 	&_pop-out {
-		background-color: var(--lyds-color-background-dark-default);
+		background-color: var(--lyds-color-background-primary-600);
 	}
 	&_header {
 		padding-bottom: 0.5rem;
@@ -228,7 +241,7 @@ p {
 		}
 	}
 	&_mini-tiles2 {
-		background-color: var(--lyds-color-background-dark-default);
+		background-color: var(--lyds-color-background-primary-600);
 	}
 	&_pop-out {
 		@media (min-width: 780px) {
@@ -236,25 +249,25 @@ p {
 		}
 	}
 	&_rich-text {
-		background-color: var(--lyds-color-bg-white);
+		background-color: var(--lyds-color-background-light-default);
 		@media (min-width: 780px) {
 			@include content-columns(1);
 		}
 	}
 	&_rich-text2 {
-		background-color: var(--lyds-color-bg-white);
+		background-color: var(--lyds-color-background-light-default);
 		@media (min-width: 780px) {
 			@include content-columns(1);
 		}
 	}
 	&_rates {
-		background-color: var(--lyds-color-bg-white);
+		background-color: var(--lyds-color-background-light-default);
 		@media (min-width: 780px) {
 			@include content-columns(3);
 		}
 	}
 	&_icon-row {
-		background-color: var(--lyds-color-bg-white);
+		background-color: var(--lyds-color-background-light-default);
 		@media (min-width: 780px) {
 			@include content-columns(4);
 		}
@@ -305,7 +318,7 @@ p {
 			}
 		}
 		&_icon-row {
-			background-color: var(--lyds-color-bg-white);
+			background-color: var(--lyds-color-background-light-default);
 			@media (min-width: 780px) {
 				grid-column: 2/6;
 			}
@@ -361,7 +374,7 @@ h1 {
 		grid-template-rows: repeat(10, 1fr);
 	}
 	&__left-container {
-		background-color: var(--lyds-color-background-dark-primary);
+		background-color: var(--lyds-color-background-primary-500);
 		padding: 2rem;
 		font-weight: 500;
 		letter-spacing: 1px;
@@ -430,7 +443,7 @@ h1 {
 		font-weight: 500;
 	}
 	&__list-item {
-		background-color: var(--lyds-color-bg-blue-700);
+		background-color: var(--lyds-color-background-primary-700);
 		border: none;
 		color: var(--lyds-color-base-neutral-100);
 	}
