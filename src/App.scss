@@ -11,7 +11,7 @@
 	--lyds-color-base-orange-100: #fbe4cf;
 	--lyds-color-base-orange-200: #f8c99e;
 	--lyds-color-base-orange-300: #f09340;
-	--lyds-color-base-orange-400: #ee780f;
+	--lyds-color-base-orange-400: #ed780f;
 	--lyds-color-base-orange-500: #d56c0d;
 	--lyds-color-base-orange-600: #c7650d;
 	--lyds-color-base-orange-700: #b54e00;
@@ -52,6 +52,7 @@
 	--lyds-color-brand-primary: var(--lyds-color-base-blue-200);
 	--lyds-color-brand-secondary: var(--lyds-color-base-blue-600);
 	--lyds-color-brand-tertiary: var(--lyds-color-base-orange-400);
+	--lyds-color-brand-tertiary-darker: var(--lyds-color-base-orange-600);
 
 	--lyds-color-background-default: var(--lyds-color-base-neutral-100);
 	--lyds-color-background-primary-100: var(--lyds-color-base-blue-100);
@@ -74,23 +75,6 @@
 	--lyds-color-text-inverse-body-default: var(--lyds-color-base-neutral-100);
 	--lyds-color-text-inverse-link-default: var(--lyds-color-base-neutral-100);
 
-	--lyds-color-bg-blue-100: var(--lyds-color-base-blue-100);
-	--lyds-color-bg-blue-200: var(--lyds-color-base-blue-200);
-	--lyds-color-bg-blue-300: var(--lyds-color-base-blue-300);
-	--lyds-color-bg-blue-400: var(--lyds-color-base-blue-400);
-	--lyds-color-bg-blue-500: var(--lyds-color-base-blue-500);
-	--lyds-color-bg-blue-600: var(--lyds-color-base-blue-600);
-	--lyds-color-bg-blue-700: var(--lyds-color-base-blue-700);
-	--lyds-color-bg-light-blue-100: var(--lyds-color-base-light-blue-100);
-	--lyds-color-bg-light-blue-200: var(--lyds-color-base-light-blue-200);
-	--lyds-color-bg-light-blue-300: var(--lyds-color-base-light-blue-300);
-	--lyds-color-bg-light-blue-400: var(--lyds-color-base-light-blue-400);
-	--lyds-color-bg-light-blue-500: var(--lyds-color-base-light-blue-500);
-	--lyds-color-bg-light-blue-600: var(--lyds-color-base-light-blue-600);
-	--lyds-color-bg-light-blue-700: var(--lyds-color-base-light-blue-200);
-
-	--lyds-color-text-brand-primary-color: var(--lyds-color-brand-primary);
-
 	// Component Design Tokens
 	--lyds-button-primary-bg-color: var(--lyds-color-brand-tertiary);
 	--lyds-button-secondary-bg-color: var(--lyds-color-brand-primary);
@@ -103,6 +87,7 @@
 		);
 		--lyds-color-text-body-default: var(--lyds-color-text-inverse-body-default);
 		--lyds-color-text-link-default: var(--lyds-color-text-inverse-link-default);
+		--lyds-color-brand-tertiary: var(--lyds-color-brand-tertiary-darker);
 		--lyds-color-background-primary-100: var(--lyds-color-base-blue-200);
 		--lyds-color-background-primary-200: var(--lyds-color-base-blue-300);
 		--lyds-color-background-primary-300: var(--lyds-color-base-blue-400);
@@ -111,34 +96,26 @@
 		--lyds-color-background-primary-600: var(--lyds-color-base-blue-700);
 		--lyds-color-background-primary-700: var(--lyds-color-base-black);
 
-		--lyds-color-bg-blue-100: var(--lyds-color-base-blue-700);
-		--lyds-color-bg-blue-200: var(--lyds-color-base-blue-700);
-		--lyds-color-bg-blue-300: var(--lyds-color-base-blue-700);
-		--lyds-color-bg-blue-400: var(--lyds-color-base-blue-700);
-		--lyds-color-bg-blue-500: var(--lyds-color-base-blue-700);
-		--lyds-color-bg-blue-600: var(--lyds-color-base-blue-700);
-		--lyds-color-bg-blue-700: var(--lyds-color-base-blue-700);
-		--lyds-color-bg-light-blue-100: var(--lyds-color-base-blue-600);
-		--lyds-color-background-light-default: var(--lyds-color-base-blue-500);
+		--lyds-color-background-default: var(--lyds-color-base-blue-500);
 		--lyds-icon-white-opacity: 0.8;
-		--lyds-button-primary-bg-color: var(--lyds-color-base-orange-800);
+		// --lyds-button-primary-bg-color: var(--lyds-color-brand-tertiary-darker);
 		--lyds-button-secondary-bg-color: var(--lyds-color-base-blue-200);
 		--lyds-color-text-brand-primary-color: var(--lyds-color-base-neutral-400);
 	}
 
 	// Pink Theme
 	.theme_barbie {
-		--lyds-color-bg-blue-100: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-200: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-300: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-400: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-500: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-600: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-700: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-800: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-900: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-light-blue-100: var(--lyds-color-base-pink-600);
-		--lyds-color-background-light-default: var(--lyds-color-base-pink-500);
+		// --lyds-color-bg-blue-100: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-blue-200: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-blue-300: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-blue-400: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-blue-500: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-blue-600: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-blue-700: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-blue-800: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-blue-900: var(--lyds-color-base-pink-700);
+		// --lyds-color-bg-light-blue-100: var(--lyds-color-base-pink-600);
+		--lyds-color-background-default: var(--lyds-color-base-pink-500);
 		--lyds-button-primary-bg-color: var(--lyds-color-base-pink-400);
 		--lyds-button-secondary-bg-color: var(--lyds-color-base-pink-200);
 		--lyds-color-text-heading-default: var(--lyds-color-base-neutral-100);
@@ -165,7 +142,7 @@
 
 @mixin btn-default {
 	appearance: none;
-	background-color: var(--lyds-button-primary-bg-color);
+	background-color: var(--lyds-color-brand-tertiary);
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px 0 #0000004d;
@@ -239,7 +216,7 @@ p {
 		padding-bottom: 0.5rem;
 	}
 	&_mini-tiles {
-		background-color: var(--lyds-color-background-light-secondary);
+		background-color: var(--lyds-color-background-secondary-100);
 		@media (min-width: 780px) {
 			@include content-columns(6);
 		}
@@ -253,25 +230,25 @@ p {
 		}
 	}
 	&_rich-text {
-		background-color: var(--lyds-color-background-light-default);
+		background-color: var(--lyds-color-background-default);
 		@media (min-width: 780px) {
 			@include content-columns(1);
 		}
 	}
 	&_rich-text2 {
-		background-color: var(--lyds-color-background-light-default);
+		background-color: var(--lyds-color-background-default);
 		@media (min-width: 780px) {
 			@include content-columns(1);
 		}
 	}
 	&_rates {
-		background-color: var(--lyds-color-background-light-default);
+		background-color: var(--lyds-color-background-default);
 		@media (min-width: 780px) {
 			@include content-columns(3);
 		}
 	}
 	&_icon-row {
-		background-color: var(--lyds-color-background-light-default);
+		background-color: var(--lyds-color-background-default);
 		@media (min-width: 780px) {
 			@include content-columns(4);
 		}
@@ -283,7 +260,7 @@ p {
 			}
 		}
 		&_themes {
-			background-color: var(--lyds-color-bg-light-blue-100);
+			background-color: var(--lyds-color-background-secondary-100);
 			border-radius: 15px;
 			@media (min-width: 780px) {
 				grid-column: 2 / 5;
@@ -322,7 +299,7 @@ p {
 			}
 		}
 		&_icon-row {
-			background-color: var(--lyds-color-background-light-default);
+			background-color: var(--lyds-color-background-default);
 			@media (min-width: 780px) {
 				grid-column: 2/6;
 			}
