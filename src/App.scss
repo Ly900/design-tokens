@@ -82,6 +82,7 @@
 		);
 		--lyds-color-text-body-default: var(--lyds-color-text-inverse-body-default);
 		--lyds-color-text-link-default: var(--lyds-color-text-inverse-link-default);
+
 		--lyds-color-bg-blue-100: var(--lyds-color-base-blue-700);
 		--lyds-color-bg-blue-200: var(--lyds-color-base-blue-700);
 		--lyds-color-bg-blue-300: var(--lyds-color-base-blue-700);
@@ -140,7 +141,7 @@
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px 0 #0000004d;
-	color: var(--lyds-color-base-neutral-100);
+	color: var(--lyds-color-text-inverse-body-default);
 	cursor: pointer;
 	display: inline-block;
 	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
