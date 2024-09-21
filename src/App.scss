@@ -47,8 +47,10 @@
 	--lyds-color-text-body-default: var(--lyds-color-base-neutral-700);
 	--lyds-color-text-link-default: var(--lyds-color-base-blue-200);
 	--lyds-color-brand-primary: var(--lyds-color-base-blue-200);
-	--lyds-color-brand-secondary: var(--lyds-color-base-orange-400);
+	--lyds-color-brand-secondary: var(--lyds-color-base-blue-600);
+	--lyds-color-brand-tertiary: var(--lyds-color-base-orange-400);
 	--lyds-color-background-default: var(--lyds-color-base-neutral-100);
+	--lyds-color-background-primary: var(--lyds-color-base-neutral-100);
 
 	// Inverse classes
 	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
@@ -74,7 +76,7 @@
 	--lyds-color-text-brand-primary-color: var(--lyds-color-brand-primary);
 
 	// Component Design Tokens
-	--lyds-button-primary-bg-color: var(--lyds-color-brand-secondary);
+	--lyds-button-primary-bg-color: var(--lyds-color-brand-tertiary);
 	--lyds-button-secondary-bg-color: var(--lyds-color-brand-primary);
 	--lyds-icon-white-opacity: 1;
 
