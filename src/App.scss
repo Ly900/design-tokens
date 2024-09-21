@@ -68,9 +68,9 @@
 	--lyds-bg-white: var(--lyds-color-base-white);
 	--lyds-heading-default-color: var(--lyds-color-base-blue-600);
 	--lyds-heading-inverse-color: var(--lyds-color-base-white);
-	--lyds-text-default-color: var(--lyds-color-base-dark);
-	--lyds-text-inverse-color: var(--lyds-color-base-white);
-	--lyds-text-brand-primary-color: var(--lyds-color-base-brand-primary);
+	--lyds-color-text-default-color: var(--lyds-color-base-dark);
+	--lyds-color-text-inverse-color: var(--lyds-color-base-white);
+	--lyds-color-text-brand-primary-color: var(--lyds-color-base-brand-primary);
 	--lyds-link-default-color: var(--lyds-color-base-brand-primary);
 
 	// Component Design Tokens
@@ -94,10 +94,10 @@
 		--lyds-button-secondary-bg-color: var(--lyds-color-base-blue-200);
 		--lyds-heading-default-color: var(--lyds-color-base-neutral-400);
 		--lyds-heading-inverse-color: var(--lyds-color-base-neutral-400);
-		--lyds-text-default-color: var(--lyds-color-base-neutral-400);
-		--lyds-text-inverse-color: var(--lyds-color-base-neutral-400);
+		--lyds-color-text-default-color: var(--lyds-color-base-neutral-400);
+		--lyds-color-text-inverse-color: var(--lyds-color-base-neutral-400);
 		--lyds-link-default-color: var(--lyds-color-base-neutral-100);
-		--lyds-text-brand-primary-color: var(--lyds-color-base-neutral-400);
+		--lyds-color-text-brand-primary-color: var(--lyds-color-base-neutral-400);
 	}
 
 	// Pink Theme
@@ -116,10 +116,10 @@
 		--lyds-button-primary-bg-color: var(--lyds-color-base-pink-400);
 		--lyds-button-secondary-bg-color: var(--lyds-color-base-pink-200);
 		--lyds-heading-default-color: var(--lyds-color-base-white);
-		--lyds-text-default-color: var(--lyds-color-base-white);
-		--lyds-text-inverse-color: var(--lyds-color-base-white);
+		--lyds-color-text-default-color: var(--lyds-color-base-white);
+		--lyds-color-text-inverse-color: var(--lyds-color-base-white);
 		--lyds-link-default-color: var(--lyds-color-base-neutral-100);
-		--lyds-text-brand-primary-color: var(--lyds-color-base-white);
+		--lyds-color-text-brand-primary-color: var(--lyds-color-base-white);
 		--lyds-color-base-brand-secondary: var(--lyds-color-base-pink-100);
 		--lyds-color-base-brand-primary: var(--lyds-color-base-pink-100);
 	}
@@ -188,7 +188,7 @@
 }
 
 p {
-	color: var(--lyds-text-default-color);
+	color: var(--lyds-color-text-default-color);
 }
 
 // Component wrapper containers
@@ -360,7 +360,7 @@ h1 {
 		}
 	}
 	&__text {
-		color: var(--lyds-text-inverse-color);
+		color: var(--lyds-color-text-inverse-color);
 	}
 	&__right-container {
 		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
@@ -403,7 +403,7 @@ h1 {
 		min-height: 12.375rem;
 		border-radius: 15px;
 		border-color: var(--lyds-color-base-brand-primary);
-		color: var(--lyds-text-brand-primary-color);
+		color: var(--lyds-color-text-brand-primary-color);
 		background-color: var(--lyds-bg-light-blue-100);
 		display: flex;
 		justify-content: center;
@@ -454,7 +454,7 @@ h1 {
 	&__text {
 		font-size: 3.5rem;
 		line-height: 1.14;
-		color: var(--lyds-text-inverse-color);
+		color: var(--lyds-color-text-inverse-color);
 	}
 }
 
