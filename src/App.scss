@@ -1,15 +1,13 @@
 :root {
 	// Primitive Tokens - The WHAT - What is used?
 	// Light Theme
-	--cmdr-color-blue-100: #0667ba;
-	--cmdr-color-blue-200: #0662b2;
-	--cmdr-color-blue-300: #05579e;
-	--cmdr-color-blue-400: #044c8b;
+	--cmdr-color-blue-100: #0a7cde;
+	--cmdr-color-blue-200: #0667ba;
+	--cmdr-color-blue-300: #0559a1;
+	--cmdr-color-blue-400: #055192;
 	--cmdr-color-blue-500: #144881;
 	--cmdr-color-blue-600: #0f3d70;
-	--cmdr-color-blue-700: #022b4f;
-	--cmdr-color-blue-800: #02213b;
-	--cmdr-color-blue-900: #011628;
+	--cmdr-color-blue-700: #032955;
 	--cmdr-color-orange-100: #f5a966;
 	--cmdr-color-orange-200: #f49e52;
 	--cmdr-color-orange-300: #f3933f;
@@ -53,7 +51,7 @@
 
 	// Semantic Tokens - The WHERE and HOW - Where and how are the values used?
 	// Default Theme
-	--cmdr-color-brand-primary: var(--cmdr-color-blue-100);
+	--cmdr-color-brand-primary: var(--cmdr-color-blue-200);
 	--cmdr-color-brand-secondary: var(--cmdr-color-orange-500);
 	--cmdr-bg-blue-100: var(--cmdr-color-blue-100);
 	--cmdr-bg-blue-200: var(--cmdr-color-blue-200);
@@ -62,8 +60,6 @@
 	--cmdr-bg-blue-500: var(--cmdr-color-blue-500);
 	--cmdr-bg-blue-600: var(--cmdr-color-blue-600);
 	--cmdr-bg-blue-700: var(--cmdr-color-blue-700);
-	--cmdr-bg-blue-800: var(--cmdr-color-blue-800);
-	--cmdr-bg-blue-900: var(--cmdr-color-blue-900);
 	--cmdr-bg-light-blue-100: #f0f7fe;
 	--cmdr-bg-light-blue-200: #d7ecfe;
 	--cmdr-bg-light-blue-300: #c4e2fd;
@@ -92,11 +88,9 @@
 		--cmdr-bg-blue-200: var(--cmdr-color-blue-700);
 		--cmdr-bg-blue-300: var(--cmdr-color-blue-700);
 		--cmdr-bg-blue-400: var(--cmdr-color-blue-700);
-		--cmdr-bg-blue-500: var(--cmdr-color-blue-800);
-		--cmdr-bg-blue-600: var(--cmdr-color-blue-800);
-		--cmdr-bg-blue-700: var(--cmdr-color-blue-900);
-		--cmdr-bg-blue-800: var(--cmdr-color-blue-900);
-		--cmdr-bg-blue-900: var(--cmdr-color-blue-900);
+		--cmdr-bg-blue-500: var(--cmdr-color-blue-700);
+		--cmdr-bg-blue-600: var(--cmdr-color-blue-700);
+		--cmdr-bg-blue-700: var(--cmdr-color-blue-700);
 		--cmdr-bg-light-blue-100: var(--cmdr-color-blue-600);
 		--cmdr-bg-white: var(--cmdr-color-blue-500);
 		--cmdr-icon-white-opacity: 0.8;
@@ -213,7 +207,7 @@ p {
 	&_themes,
 	&_sign-in,
 	&_pop-out {
-		background-color: var(--cmdr-bg-blue-100);
+		background-color: var(--cmdr-bg-blue-600);
 	}
 	&_header {
 		padding-bottom: 0.5rem;
