@@ -1,65 +1,65 @@
 :root {
 	// Primitive Tokens - The WHAT - What is used?
 	// Light Theme
-	--lyds-color-blue-100: #0a7cde;
-	--lyds-color-blue-200: #0667ba;
-	--lyds-color-blue-300: #0559a1;
-	--lyds-color-blue-400: #055192;
-	--lyds-color-blue-500: #144881;
-	--lyds-color-blue-600: #0f3d70;
-	--lyds-color-blue-700: #032955;
-	--lyds-color-orange-100: #f5a966;
-	--lyds-color-orange-200: #f49e52;
-	--lyds-color-orange-300: #f3933f;
-	--lyds-color-orange-400: #f2882c;
-	--lyds-color-orange-500: #ed780f;
-	--lyds-color-orange-600: #e6730f;
-	--lyds-color-orange-700: #d36a0d;
-	--lyds-color-orange-800: #c0600c;
-	--lyds-color-orange-900: #ad560b;
-	--lyds-color-light-blue-100: #f0f7fe;
-	--lyds-color-light-blue-200: #d7ecfe;
-	--lyds-color-light-blue-300: #c4e2fd;
-	--lyds-color-light-blue-400: #b0d9fd;
-	--lyds-color-light-blue-500: #9ccffc;
-	--lyds-color-light-blue-600: #88c6fb;
-	--lyds-color-light-blue-700: #74bcfb;
-	--lyds-color-light-blue-800: #61b3fa;
-	--lyds-color-light-blue-900: #4da9f9;
-	--lyds-color-neutral-100: #f5f5f5;
-	--lyds-color-neutral-200: #eaeaeb;
-	--lyds-color-neutral-300: #e0e0e1;
-	--lyds-color-neutral-400: #d3d3d4;
-	--lyds-color-neutral-500: #cbcbcd;
-	--lyds-color-neutral-600: #c1c1c2;
-	--lyds-color-neutral-700: #b7b7b8;
-	--lyds-color-neutral-800: #adadae;
-	--lyds-color-neutral-900: #a2a2a4;
-	--lyds-color-white: #ffffff;
-	--lyds-color-dark: #0c0d0e;
+	--lyds-color-base-blue-100: #0a7cde;
+	--lyds-color-base-blue-200: #0667ba;
+	--lyds-color-base-blue-300: #0559a1;
+	--lyds-color-base-blue-400: #055192;
+	--lyds-color-base-blue-500: #144881;
+	--lyds-color-base-blue-600: #0f3d70;
+	--lyds-color-base-blue-700: #032955;
+	--lyds-color-base-orange-100: #f5a966;
+	--lyds-color-base-orange-200: #f49e52;
+	--lyds-color-base-orange-300: #f3933f;
+	--lyds-color-base-orange-400: #f2882c;
+	--lyds-color-base-orange-500: #ed780f;
+	--lyds-color-base-orange-600: #e6730f;
+	--lyds-color-base-orange-700: #d36a0d;
+	--lyds-color-base-orange-800: #c0600c;
+	--lyds-color-base-orange-900: #ad560b;
+	--lyds-color-base-light-blue-100: #f0f7fe;
+	--lyds-color-base-light-blue-200: #d7ecfe;
+	--lyds-color-base-light-blue-300: #c4e2fd;
+	--lyds-color-base-light-blue-400: #b0d9fd;
+	--lyds-color-base-light-blue-500: #9ccffc;
+	--lyds-color-base-light-blue-600: #88c6fb;
+	--lyds-color-base-light-blue-700: #74bcfb;
+	--lyds-color-base-light-blue-800: #61b3fa;
+	--lyds-color-base-light-blue-900: #4da9f9;
+	--lyds-color-base-neutral-100: #f5f5f5;
+	--lyds-color-base-neutral-200: #eaeaeb;
+	--lyds-color-base-neutral-300: #e0e0e1;
+	--lyds-color-base-neutral-400: #d3d3d4;
+	--lyds-color-base-neutral-500: #cbcbcd;
+	--lyds-color-base-neutral-600: #c1c1c2;
+	--lyds-color-base-neutral-700: #b7b7b8;
+	--lyds-color-base-neutral-800: #adadae;
+	--lyds-color-base-neutral-900: #a2a2a4;
+	--lyds-color-base-white: #ffffff;
+	--lyds-color-base-dark: #0c0d0e;
 
 	// Pink Theme
-	--lyds-color-pink-100: #ff5cbb;
-	--lyds-color-pink-200: #ff47b3;
-	--lyds-color-pink-300: #ff33aa;
-	--lyds-color-pink-400: #ff1fa2;
-	--lyds-color-pink-500: #ff0099;
-	--lyds-color-pink-600: #f5008f;
-	--lyds-color-pink-700: #e00083;
-	--lyds-color-pink-800: #cc0077;
-	--lyds-color-pink-900: #b8006b;
+	--lyds-color-base-pink-100: #ff5cbb;
+	--lyds-color-base-pink-200: #ff47b3;
+	--lyds-color-base-pink-300: #ff33aa;
+	--lyds-color-base-pink-400: #ff1fa2;
+	--lyds-color-base-pink-500: #ff0099;
+	--lyds-color-base-pink-600: #f5008f;
+	--lyds-color-base-pink-700: #e00083;
+	--lyds-color-base-pink-800: #cc0077;
+	--lyds-color-base-pink-900: #b8006b;
 
 	// Semantic Tokens - The WHERE and HOW - Where and how are the values used?
 	// Default Theme
-	--lyds-color-brand-primary: var(--lyds-color-blue-200);
-	--lyds-color-brand-secondary: var(--lyds-color-orange-500);
-	--lyds-bg-blue-100: var(--lyds-color-blue-100);
-	--lyds-bg-blue-200: var(--lyds-color-blue-200);
-	--lyds-bg-blue-300: var(--lyds-color-blue-300);
-	--lyds-bg-blue-400: var(--lyds-color-blue-400);
-	--lyds-bg-blue-500: var(--lyds-color-blue-500);
-	--lyds-bg-blue-600: var(--lyds-color-blue-600);
-	--lyds-bg-blue-700: var(--lyds-color-blue-700);
+	--lyds-color-base-brand-primary: var(--lyds-color-base-blue-200);
+	--lyds-color-base-brand-secondary: var(--lyds-color-base-orange-500);
+	--lyds-bg-blue-100: var(--lyds-color-base-blue-100);
+	--lyds-bg-blue-200: var(--lyds-color-base-blue-200);
+	--lyds-bg-blue-300: var(--lyds-color-base-blue-300);
+	--lyds-bg-blue-400: var(--lyds-color-base-blue-400);
+	--lyds-bg-blue-500: var(--lyds-color-base-blue-500);
+	--lyds-bg-blue-600: var(--lyds-color-base-blue-600);
+	--lyds-bg-blue-700: var(--lyds-color-base-blue-700);
 	--lyds-bg-light-blue-100: #f0f7fe;
 	--lyds-bg-light-blue-200: #d7ecfe;
 	--lyds-bg-light-blue-300: #c4e2fd;
@@ -69,63 +69,63 @@
 	--lyds-bg-light-blue-700: #74bcfb;
 	--lyds-bg-light-blue-800: #61b3fa;
 	--lyds-bg-light-blue-900: #4da9f9;
-	--lyds-bg-white: var(--lyds-color-white);
-	--lyds-heading-default-color: var(--lyds-color-blue-600);
-	--lyds-heading-inverse-color: var(--lyds-color-white);
-	--lyds-text-default-color: var(--lyds-color-dark);
-	--lyds-text-inverse-color: var(--lyds-color-white);
-	--lyds-text-brand-primary-color: var(--lyds-color-brand-primary);
-	--lyds-link-default-color: var(--lyds-color-brand-primary);
+	--lyds-bg-white: var(--lyds-color-base-white);
+	--lyds-heading-default-color: var(--lyds-color-base-blue-600);
+	--lyds-heading-inverse-color: var(--lyds-color-base-white);
+	--lyds-text-default-color: var(--lyds-color-base-dark);
+	--lyds-text-inverse-color: var(--lyds-color-base-white);
+	--lyds-text-brand-primary-color: var(--lyds-color-base-brand-primary);
+	--lyds-link-default-color: var(--lyds-color-base-brand-primary);
 
 	// Component Design Tokens
-	--lyds-button-primary-bg-color: var(--lyds-color-brand-secondary);
-	--lyds-button-secondary-bg-color: var(--lyds-color-brand-primary);
+	--lyds-button-primary-bg-color: var(--lyds-color-base-brand-secondary);
+	--lyds-button-secondary-bg-color: var(--lyds-color-base-brand-primary);
 	--lyds-icon-white-opacity: 1;
 
 	// Dark Theme
 	.theme_dark {
-		--lyds-bg-blue-100: var(--lyds-color-blue-700);
-		--lyds-bg-blue-200: var(--lyds-color-blue-700);
-		--lyds-bg-blue-300: var(--lyds-color-blue-700);
-		--lyds-bg-blue-400: var(--lyds-color-blue-700);
-		--lyds-bg-blue-500: var(--lyds-color-blue-700);
-		--lyds-bg-blue-600: var(--lyds-color-blue-700);
-		--lyds-bg-blue-700: var(--lyds-color-blue-700);
-		--lyds-bg-light-blue-100: var(--lyds-color-blue-600);
-		--lyds-bg-white: var(--lyds-color-blue-500);
+		--lyds-bg-blue-100: var(--lyds-color-base-blue-700);
+		--lyds-bg-blue-200: var(--lyds-color-base-blue-700);
+		--lyds-bg-blue-300: var(--lyds-color-base-blue-700);
+		--lyds-bg-blue-400: var(--lyds-color-base-blue-700);
+		--lyds-bg-blue-500: var(--lyds-color-base-blue-700);
+		--lyds-bg-blue-600: var(--lyds-color-base-blue-700);
+		--lyds-bg-blue-700: var(--lyds-color-base-blue-700);
+		--lyds-bg-light-blue-100: var(--lyds-color-base-blue-600);
+		--lyds-bg-white: var(--lyds-color-base-blue-500);
 		--lyds-icon-white-opacity: 0.8;
-		--lyds-button-primary-bg-color: var(--lyds-color-orange-800);
-		--lyds-button-secondary-bg-color: var(--lyds-color-blue-200);
-		--lyds-heading-default-color: var(--lyds-color-neutral-400);
-		--lyds-heading-inverse-color: var(--lyds-color-neutral-400);
-		--lyds-text-default-color: var(--lyds-color-neutral-400);
-		--lyds-text-inverse-color: var(--lyds-color-neutral-400);
-		--lyds-link-default-color: var(--lyds-color-neutral-100);
-		--lyds-text-brand-primary-color: var(--lyds-color-neutral-400);
+		--lyds-button-primary-bg-color: var(--lyds-color-base-orange-800);
+		--lyds-button-secondary-bg-color: var(--lyds-color-base-blue-200);
+		--lyds-heading-default-color: var(--lyds-color-base-neutral-400);
+		--lyds-heading-inverse-color: var(--lyds-color-base-neutral-400);
+		--lyds-text-default-color: var(--lyds-color-base-neutral-400);
+		--lyds-text-inverse-color: var(--lyds-color-base-neutral-400);
+		--lyds-link-default-color: var(--lyds-color-base-neutral-100);
+		--lyds-text-brand-primary-color: var(--lyds-color-base-neutral-400);
 	}
 
 	// Pink Theme
 	.theme_barbie {
-		--lyds-bg-blue-100: var(--lyds-color-pink-700);
-		--lyds-bg-blue-200: var(--lyds-color-pink-700);
-		--lyds-bg-blue-300: var(--lyds-color-pink-700);
-		--lyds-bg-blue-400: var(--lyds-color-pink-700);
-		--lyds-bg-blue-500: var(--lyds-color-pink-900);
-		--lyds-bg-blue-600: var(--lyds-color-pink-800);
-		--lyds-bg-blue-700: var(--lyds-color-pink-900);
-		--lyds-bg-blue-800: var(--lyds-color-pink-900);
-		--lyds-bg-blue-900: var(--lyds-color-pink-900);
-		--lyds-bg-light-blue-100: var(--lyds-color-pink-600);
-		--lyds-bg-white: var(--lyds-color-pink-500);
-		--lyds-button-primary-bg-color: var(--lyds-color-pink-400);
-		--lyds-button-secondary-bg-color: var(--lyds-color-pink-200);
-		--lyds-heading-default-color: var(--lyds-color-white);
-		--lyds-text-default-color: var(--lyds-color-white);
-		--lyds-text-inverse-color: var(--lyds-color-white);
-		--lyds-link-default-color: var(--lyds-color-neutral-100);
-		--lyds-text-brand-primary-color: var(--lyds-color-white);
-		--lyds-color-brand-secondary: var(--lyds-color-pink-100);
-		--lyds-color-brand-primary: var(--lyds-color-pink-100);
+		--lyds-bg-blue-100: var(--lyds-color-base-pink-700);
+		--lyds-bg-blue-200: var(--lyds-color-base-pink-700);
+		--lyds-bg-blue-300: var(--lyds-color-base-pink-700);
+		--lyds-bg-blue-400: var(--lyds-color-base-pink-700);
+		--lyds-bg-blue-500: var(--lyds-color-base-pink-900);
+		--lyds-bg-blue-600: var(--lyds-color-base-pink-800);
+		--lyds-bg-blue-700: var(--lyds-color-base-pink-900);
+		--lyds-bg-blue-800: var(--lyds-color-base-pink-900);
+		--lyds-bg-blue-900: var(--lyds-color-base-pink-900);
+		--lyds-bg-light-blue-100: var(--lyds-color-base-pink-600);
+		--lyds-bg-white: var(--lyds-color-base-pink-500);
+		--lyds-button-primary-bg-color: var(--lyds-color-base-pink-400);
+		--lyds-button-secondary-bg-color: var(--lyds-color-base-pink-200);
+		--lyds-heading-default-color: var(--lyds-color-base-white);
+		--lyds-text-default-color: var(--lyds-color-base-white);
+		--lyds-text-inverse-color: var(--lyds-color-base-white);
+		--lyds-link-default-color: var(--lyds-color-base-neutral-100);
+		--lyds-text-brand-primary-color: var(--lyds-color-base-white);
+		--lyds-color-base-brand-secondary: var(--lyds-color-base-pink-100);
+		--lyds-color-base-brand-primary: var(--lyds-color-base-pink-100);
 	}
 }
 
@@ -147,7 +147,7 @@
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px 0 #0000004d;
-	color: var(--lyds-color-white);
+	color: var(--lyds-color-base-white);
 	cursor: pointer;
 	display: inline-block;
 	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -386,7 +386,7 @@ h1 {
 		font-size: 2rem;
 		color: var(--lyds-heading-default-color);
 		font-weight: 600;
-		border-left: 0.5rem var(--lyds-color-brand-secondary) solid;
+		border-left: 0.5rem var(--lyds-color-base-brand-secondary) solid;
 		padding-left: 0.75rem;
 	}
 	&__unordered-list {
@@ -406,7 +406,7 @@ h1 {
 		border: 1px solid black;
 		min-height: 12.375rem;
 		border-radius: 15px;
-		border-color: var(--lyds-color-brand-primary);
+		border-color: var(--lyds-color-base-brand-primary);
 		color: var(--lyds-text-brand-primary-color);
 		background-color: var(--lyds-bg-light-blue-100);
 		display: flex;
@@ -423,7 +423,7 @@ h1 {
 	&__list-item {
 		background-color: var(--lyds-bg-blue-700);
 		border: none;
-		color: var(--lyds-color-white);
+		color: var(--lyds-color-base-white);
 	}
 }
 
@@ -541,6 +541,6 @@ h1 {
 	}
 	&__icon {
 		max-width: 100px;
-		fill: var(--lyds-color-brand-primary);
+		fill: var(--lyds-color-base-brand-primary);
 	}
 }
