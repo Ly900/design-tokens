@@ -50,9 +50,11 @@
 	--lyds-color-brand-secondary: var(--lyds-color-base-blue-600);
 	--lyds-color-brand-tertiary: var(--lyds-color-base-orange-400);
 	--lyds-color-background-light-default: var(--lyds-color-base-neutral-100);
-	--lyds-color-background-light-primary: var(--lyds-color-blue-700);
+	--lyds-color-background-light-secondary: var(
+		--lyds-color-base-light-blue-100
+	);
 	--lyds-color-background-dark-default: var(--lyds-color-brand-secondary);
-	--lyds-color-background-dark-primary: var(--lyds-color-blue-500);
+	--lyds-color-background-dark-secondary: var(--lyds-color-base-blue-500);
 
 	// Inverse classes
 	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
@@ -90,6 +92,7 @@
 		--lyds-color-text-body-default: var(--lyds-color-text-inverse-body-default);
 		--lyds-color-text-link-default: var(--lyds-color-text-inverse-link-default);
 		--lyds-color-background-dark-default: var(--lyds-color-base-blue-700);
+		--lyds-color-background-light-secondary: var(--lyds-color-base-blue-400);
 
 		--lyds-color-bg-blue-100: var(--lyds-color-base-blue-700);
 		--lyds-color-bg-blue-200: var(--lyds-color-base-blue-700);
@@ -219,7 +222,7 @@ p {
 		padding-bottom: 0.5rem;
 	}
 	&_mini-tiles {
-		background-color: var(--lyds-color-bg-light-blue-100);
+		background-color: var(--lyds-color-background-light-secondary);
 		@media (min-width: 780px) {
 			@include content-columns(6);
 		}
@@ -358,7 +361,7 @@ h1 {
 		grid-template-rows: repeat(10, 1fr);
 	}
 	&__left-container {
-		background-color: var(--lyds-color-bg-blue-500);
+		background-color: var(--lyds-color-background-dark-primary);
 		padding: 2rem;
 		font-weight: 500;
 		letter-spacing: 1px;
