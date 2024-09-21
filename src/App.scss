@@ -33,15 +33,13 @@
 	--lyds-color-base-neutral-700: #0c0d0e;
 
 	// Pink Theme
-	--lyds-color-base-pink-100: #ff5cbb;
-	--lyds-color-base-pink-200: #ff47b3;
-	--lyds-color-base-pink-300: #ff33aa;
-	--lyds-color-base-pink-400: #ff1fa2;
-	--lyds-color-base-pink-500: #ff0099;
-	--lyds-color-base-pink-600: #f5008f;
-	--lyds-color-base-pink-700: #e00083;
-	--lyds-color-base-pink-800: #cc0077;
-	--lyds-color-base-pink-900: #b8006b;
+	--lyds-color-base-pink-100: #f9cfe1;
+	--lyds-color-base-pink-200: #f3a0c3;
+	--lyds-color-base-pink-300: #ec70a4;
+	--lyds-color-base-pink-400: #e64187;
+	--lyds-color-base-pink-500: #e01169;
+	--lyds-color-base-pink-600: #b20e54;
+	--lyds-color-base-pink-700: #860a3f;
 
 	// Semantic Tokens - The WHERE and HOW - Where and how are the values used?
 	// Default Theme
@@ -102,11 +100,11 @@
 		--lyds-color-bg-blue-200: var(--lyds-color-base-pink-700);
 		--lyds-color-bg-blue-300: var(--lyds-color-base-pink-700);
 		--lyds-color-bg-blue-400: var(--lyds-color-base-pink-700);
-		--lyds-color-bg-blue-500: var(--lyds-color-base-pink-900);
-		--lyds-color-bg-blue-600: var(--lyds-color-base-pink-800);
-		--lyds-color-bg-blue-700: var(--lyds-color-base-pink-900);
-		--lyds-color-bg-blue-800: var(--lyds-color-base-pink-900);
-		--lyds-color-bg-blue-900: var(--lyds-color-base-pink-900);
+		--lyds-color-bg-blue-500: var(--lyds-color-base-pink-700);
+		--lyds-color-bg-blue-600: var(--lyds-color-base-pink-700);
+		--lyds-color-bg-blue-700: var(--lyds-color-base-pink-700);
+		--lyds-color-bg-blue-800: var(--lyds-color-base-pink-700);
+		--lyds-color-bg-blue-900: var(--lyds-color-base-pink-700);
 		--lyds-color-bg-light-blue-100: var(--lyds-color-base-pink-600);
 		--lyds-color-bg-white: var(--lyds-color-base-pink-500);
 		--lyds-button-primary-bg-color: var(--lyds-color-base-pink-400);
