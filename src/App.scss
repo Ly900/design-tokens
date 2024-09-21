@@ -50,8 +50,8 @@
 	--lyds-color-text-link-default: var(--lyds-color-base-blue-200);
 	--lyds-color-text-inverse-link-default: var(--lyds-color-base-neutral-100);
 
-	--lyds-color-base-brand-primary: var(--lyds-color-base-blue-200);
-	--lyds-color-base-brand-secondary: var(--lyds-color-base-orange-400);
+	--lyds-color-brand-primary: var(--lyds-color-base-blue-200);
+	--lyds-color-brand-secondary: var(--lyds-color-base-orange-400);
 	--lyds-color-bg-blue-100: var(--lyds-color-base-blue-100);
 	--lyds-color-bg-blue-200: var(--lyds-color-base-blue-200);
 	--lyds-color-bg-blue-300: var(--lyds-color-base-blue-300);
@@ -68,11 +68,11 @@
 	--lyds-color-bg-light-blue-700: var(--lyds-color-base-light-blue-200);
 	--lyds-color-bg-white: var(--lyds-color-base-neutral-100);
 
-	--lyds-color-text-brand-primary-color: var(--lyds-color-base-brand-primary);
+	--lyds-color-text-brand-primary-color: var(--lyds-color-brand-primary);
 
 	// Component Design Tokens
-	--lyds-button-primary-bg-color: var(--lyds-color-base-brand-secondary);
-	--lyds-button-secondary-bg-color: var(--lyds-color-base-brand-primary);
+	--lyds-button-primary-bg-color: var(--lyds-color-brand-secondary);
+	--lyds-button-secondary-bg-color: var(--lyds-color-brand-primary);
 	--lyds-icon-white-opacity: 1;
 
 	// Dark Theme
@@ -118,8 +118,8 @@
 		--lyds-color-text-inverse-body-default: var(--lyds-color-base-neutral-100);
 		--lyds-color-text-link-default: var(--lyds-color-base-neutral-100);
 		--lyds-color-text-brand-primary-color: var(--lyds-color-base-neutral-100);
-		--lyds-color-base-brand-secondary: var(--lyds-color-base-pink-100);
-		--lyds-color-base-brand-primary: var(--lyds-color-base-pink-100);
+		--lyds-color-brand-secondary: var(--lyds-color-base-pink-100);
+		--lyds-color-brand-primary: var(--lyds-color-base-pink-100);
 	}
 }
 
@@ -380,7 +380,7 @@ h1 {
 		font-size: 2rem;
 		color: var(--lyds-color-text-heading-default);
 		font-weight: 600;
-		border-left: 0.5rem var(--lyds-color-base-brand-secondary) solid;
+		border-left: 0.5rem var(--lyds-color-brand-secondary) solid;
 		padding-left: 0.75rem;
 	}
 	&__unordered-list {
@@ -400,7 +400,7 @@ h1 {
 		border: 1px solid black;
 		min-height: 12.375rem;
 		border-radius: 15px;
-		border-color: var(--lyds-color-base-brand-primary);
+		border-color: var(--lyds-color-brand-primary);
 		color: var(--lyds-color-text-link-default);
 		background-color: var(--lyds-color-bg-light-blue-100);
 		display: flex;
@@ -535,6 +535,6 @@ h1 {
 	}
 	&__icon {
 		max-width: 100px;
-		fill: var(--lyds-color-base-brand-primary);
+		fill: var(--lyds-color-brand-primary);
 	}
 }
