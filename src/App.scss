@@ -44,11 +44,11 @@
 	// Semantic Tokens - The WHERE and HOW - Where and how are the values used?
 	// Default Theme (Light)
 	--lyds-color-text-heading-default: var(--lyds-color-base-blue-600);
-	--lyds-color-text-heading-default-light: var(--lyds-color-base-neutral-100);
 	--lyds-color-text-body-default: var(--lyds-color-base-neutral-700);
-	--lyds-color-text-body-default-light: var(--lyds-color-base-neutral-100);
 	--lyds-color-text-link-default: var(--lyds-color-base-blue-200);
-	--lyds-color-text-link-default-light: var(--lyds-color-base-neutral-100);
+	--lyds-color-text-inverse-heading-default: var(--lyds-color-base-neutral-100);
+	--lyds-color-text-inverse-body-default: var(--lyds-color-base-neutral-100);
+	--lyds-color-text-inverse-link-default: var(--lyds-color-base-neutral-100);
 
 	--lyds-color-brand-primary-default: var(--lyds-color-base-blue-200);
 	--lyds-color-brand-primary-dark: var(--lyds-color-base-blue-400);
@@ -81,14 +81,16 @@
 
 	// Dark Theme
 	.theme_dark {
-		--lyds-color-text-heading-default-light: var(--lyds-color-base-neutral-200);
-		--lyds-color-text-body-default-light: var(--lyds-color-base-neutral-200);
-		--lyds-color-text-link-default-light: var(--lyds-color-base-neutral-200);
-		--lyds-color-text-heading-default: var(
-			--lyds-color-text-heading-default-light
+		--lyds-color-text-inverse-heading-default: var(
+			--lyds-color-base-neutral-200
 		);
-		--lyds-color-text-body-default: var(--lyds-color-text-body-default-light);
-		--lyds-color-text-link-default: var(--lyds-color-text-link-default-light);
+		--lyds-color-text-inverse-body-default: var(--lyds-color-base-neutral-200);
+		--lyds-color-text-inverse-link-default: var(--lyds-color-base-neutral-200);
+		--lyds-color-text-heading-default: var(
+			--lyds-color-text-inverse-heading-default
+		);
+		--lyds-color-text-body-default: var(--lyds-color-text-inverse-body-default);
+		--lyds-color-text-link-default: var(--lyds-color-text-inverse-link-default);
 
 		--lyds-color-brand-tertiary-default: var(--lyds-color-brand-tertiary-dark);
 
@@ -147,7 +149,7 @@
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px 0 #0000004d;
-	color: var(--lyds-color-text-body-default-light);
+	color: var(--lyds-color-text-inverse-body-default);
 	cursor: pointer;
 	display: inline-block;
 	font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -327,7 +329,7 @@ p {
 h1 {
 	text-align: center;
 	letter-spacing: 1px;
-	color: var(--lyds-color-text-heading-default-light);
+	color: var(--lyds-color-text-inverse-heading-default);
 }
 
 // Themes
@@ -368,7 +370,7 @@ h1 {
 		}
 	}
 	&__text {
-		color: var(--lyds-color-text-body-default-light);
+		color: var(--lyds-color-text-inverse-body-default);
 	}
 	&__right-container {
 		background-image: url(https://dm-assets.navyfederal.org/is/image/nfcu/homeimprovement_0072_nfcu_0521-cc-DRK?qlt=80&wid=1600&ts=1689965334414&dpr=off);
@@ -421,13 +423,13 @@ h1 {
 
 .mini-tiles2 {
 	&__heading {
-		color: var(--lyds-color-text-heading-default-light);
+		color: var(--lyds-color-text-inverse-heading-default);
 		font-weight: 500;
 	}
 	&__list-item {
 		background-color: var(--lyds-color-background-primary-700);
 		border: none;
-		color: var(--lyds-color-text-body-default-light);
+		color: var(--lyds-color-text-inverse-body-default);
 	}
 }
 
@@ -455,14 +457,14 @@ h1 {
 		border-radius: 15px;
 	}
 	&__subheading {
-		color: var(--lyds-color-text-heading-default-light);
+		color: var(--lyds-color-text-inverse-heading-default);
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
 	&__text {
 		font-size: 3.5rem;
 		line-height: 1.14;
-		color: var(--lyds-color-text-body-default-light);
+		color: var(--lyds-color-text-inverse-body-default);
 	}
 }
 
