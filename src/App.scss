@@ -50,11 +50,11 @@
 	--lyds-color-text-link-default: var(--lyds-color-base-blue-200);
 	--lyds-color-text-link-default-light: var(--lyds-color-base-neutral-100);
 
-	--lyds-color-brand-primary: var(--lyds-color-base-blue-200);
-	--lyds-color-brand-primary-darker: var(--lyds-color-base-blue-400);
-	--lyds-color-brand-secondary: var(--lyds-color-base-blue-600);
-	--lyds-color-brand-tertiary: var(--lyds-color-base-orange-400);
-	--lyds-color-brand-tertiary-darker: var(--lyds-color-base-orange-600);
+	--lyds-color-brand-primary-default: var(--lyds-color-base-blue-200);
+	--lyds-color-brand-primary-dark: var(--lyds-color-base-blue-400);
+	--lyds-color-brand-secondary-default: var(--lyds-color-base-blue-600);
+	--lyds-color-brand-tertiary-default: var(--lyds-color-base-orange-400);
+	--lyds-color-brand-tertiary-dark: var(--lyds-color-base-orange-600);
 
 	--lyds-color-background-default: var(--lyds-color-base-neutral-100);
 	--lyds-color-background-primary-100: var(--lyds-color-base-blue-100);
@@ -72,11 +72,11 @@
 	--lyds-color-background-secondary-600: var(--lyds-color-base-light-blue-600);
 	--lyds-color-background-secondary-700: var(--lyds-color-base-light-blue-700);
 
-	--lyds-color-border-default: var(--lyds-color-brand-primary);
+	--lyds-color-border-default: var(--lyds-color-brand-primary-default);
 
 	// Component Design Tokens
-	--lyds-button-primary-bg-color: var(--lyds-color-brand-tertiary);
-	--lyds-button-secondary-bg-color: var(--lyds-color-brand-primary);
+	--lyds-button-primary-bg-color: var(--lyds-color-brand-tertiary-default);
+	--lyds-button-secondary-bg-color: var(--lyds-color-brand-primary-default);
 	--lyds-icon-white-opacity: 1;
 
 	// Dark Theme
@@ -90,7 +90,7 @@
 		--lyds-color-text-body-default: var(--lyds-color-text-body-default-light);
 		--lyds-color-text-link-default: var(--lyds-color-text-link-default-light);
 
-		--lyds-color-brand-tertiary: var(--lyds-color-brand-tertiary-darker);
+		--lyds-color-brand-tertiary-default: var(--lyds-color-brand-tertiary-dark);
 
 		--lyds-color-background-default: var(--lyds-color-base-blue-500);
 		--lyds-color-background-primary-100: var(--lyds-color-base-blue-200);
@@ -113,8 +113,8 @@
 		--lyds-color-text-body-default: var(--lyds-color-base-pink-700);
 		--lyds-color-text-link-default: var(--lyds-color-base-pink-700);
 
-		--lyds-color-brand-primary: var(--lyds-color-base-pink-500);
-		--lyds-color-brand-tertiary: var(--lyds-color-base-pink-300);
+		--lyds-color-brand-primary-default: var(--lyds-color-base-pink-500);
+		--lyds-color-brand-tertiary-default: var(--lyds-color-base-pink-300);
 
 		--lyds-color-background-default: var(--lyds-color-base-pink-200);
 		--lyds-color-background-primary-500: var(--lyds-color-base-pink-600);
@@ -143,7 +143,7 @@
 
 @mixin btn-default {
 	appearance: none;
-	background-color: var(--lyds-color-brand-tertiary);
+	background-color: var(--lyds-color-brand-tertiary-default);
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 1px 3px 0 #0000004d;
@@ -184,7 +184,7 @@
 
 .btn-secondary {
 	@include btn-default();
-	background-color: var(--lyds-color-brand-primary);
+	background-color: var(--lyds-color-brand-primary-default);
 }
 
 .default-link {
@@ -390,7 +390,7 @@ h1 {
 		font-size: 2rem;
 		color: var(--lyds-color-text-heading-default);
 		font-weight: 600;
-		border-left: 0.5rem var(--lyds-color-brand-tertiary) solid;
+		border-left: 0.5rem var(--lyds-color-brand-tertiary-default) solid;
 		padding-left: 0.75rem;
 	}
 	&__unordered-list {
@@ -545,6 +545,6 @@ h1 {
 	}
 	&__icon {
 		max-width: 100px;
-		fill: var(--lyds-color-brand-primary);
+		fill: var(--lyds-color-brand-primary-default);
 	}
 }
